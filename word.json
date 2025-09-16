@@ -1,0 +1,690 @@
+ABSTRACT
+Land use and slope position significantly impact soil erosion, which in turn influences soil development processes and the spatial distribution of soil properties. This study aimed to determine soil physical and chemical properties and assess their spatial variability across different slope positions and land use types. The research was conducted in Forest planted to teak and citrus Orchard at the University of Benin (UNIBEN), Benin City. Soil samples were collected from two depths (0-15 cm and 15-30 cm) along the upper, middle, and lower slope positions using a soil auger and core sampler. Both physical and chemical properties were significantly different along the slope for both land use. physical properties:  saturated hydraulic conductivity (ksat)  range from (19.32 cm/h to 33.7 cm/h). The CV of Ksat is 14.8%. Chemical properties revealed soil pH range from (4.52 to 5.08) with CV of 2.6%, total nitrogen  range from (0.42mg/kg to 2.04mg/kg) with CV of 13.2%,  Phosphorus range from (11.9  to 51.7 mg/kg) with CV of 0.4%, Exchange acidity range from (0.08 to 0.30 cmol/kg) with CV of 13.0%. The CV for all the parameters were less than 15% which indicates a class of low variability. This means that the parameters were uniformly distributed along the slope in the two land use types. The study also examined infiltration variability across land use types and slope positions. Results showed that cumulative Infiltration was highest in the middle slope with a mean value of 11mm/hr for forest (teak) and a mean value of 130mm/hr for citrus Orchard, while the steady state infiltration was highest in the upper slope with a mean value of 16mm/hr  for   forest (teak) and a mean value of 11mm/hr for citrus Orchard. However, in the citrus Orchard, the Lower slope experienced significantly reduced infiltration, likely due to soil compaction.
+
+CHAPTER ONE
+1.0  	INTRODUCTION
+Soils are naturally heterogeneous and dynamic, exhibiting significant spatial variability across different scales, from local to global (Orzechowski et al.,
+2022). This variability is influenced by multiple physical, hydrological, and biological processes, impacting soil composition, functions, and agricultural productivity (Durán and Delgado,
+2020).  Soil properties can be temporal or spatial. Spatial variability refers to the way a particular property or characteristic changes across different locations in a given area. Understanding soil spatial heterogeneity is crucial for hydrological modeling, sustainable soil and water management, and optimizing land use planning (Abdu et al.,
+2023). Various geostatistical techniques have been employed to study the spatial distribution of soil characteristics such as saturated hydraulic conductivity (Ksat), bulk density (BD), soil organic carbon (SOC), total nitrogen (TN), and available phosphorus (Avail. P) (Klatka et al.,
+2019). Topography plays a significant role in soil property distribution by influencing erosion, runoff, infiltration, and deposition (Li and Pan,
+2020). Slope position affects nutrient transport, with clay, organic matter, and other soil components often being relocated from higher elevations to lower depressions (Chen et al.,
+2022). Land use and vegetation cover also contribute to these processes, where reforestation efforts on steep slopes help reduce soil erosion and nutrient loss (Li et al.,
+2018). Research has demonstrated that topographic variations influence surface soil carbon and nitrogen distribution by regulating hydrological processes and organic matter decomposition (Kokulan et al.,
+2018; Zhang et al.,
+2021). Several studies have assessed the spatial variability of soil physicochemical properties under different land use types. A study conducted on karst hillslopes in Southwest China indicated that slope position and soil depth significantly impacted soil physical properties, where bulk density and clay content increased with depth, while sand content decreased (Chen et al.,
+2024). Among the three land uses analyzed, bulk density showed the highest variability at lower slopes, whereas sand and clay fluctuated most at mid-slopes (Chen et al.,
+2024). The coefficient of variation (CV) for soil physical properties was ranked as sand (11.08%) > clay (7.77%) > bulk density (6.85%) > silt (3.81%), while for chemical properties, the order was available K (44.49%) > total P (16.77%) > total C (16.31%) > total N (13.09%) > available P (8.45%) > total K (7.51%) (Chen et al.,
+2024). Chemical properties exhibited greater spatial variability than physical properties, with notable correlations between them (Chen et al.,
+2024). These findings contribute to understanding land use impacts on soil erosion and provide insights into sustainable ecosystem restoration (Chen et al.,
+2024). Similarly, research in the Koupendri catchment, Benin, examined soil properties under different land use systems, revealing both normal and non-normal distributions (Azuka and Igue 2020). The coefficient of variation was highest for Ksat (75 - 126.7%), moderate for SOC, the C/N ratio, and available phosphorus (29 - 45%), and lowest for bulk density and total nitrogen (7 - 15%) (Azuka and Igue 2020). Land use had a significant effect (P < 0.05) on most soil properties, except for the C/N ratio (Azuka and Igué,
+2020). The highest Ksat (151.6 cm/d), SOC (1.26%), BD (1.79 g/cm³), TN (0.105%), and available P (4.66 ppm) were observed under cropland, while porosity was highest (43.7%) in rice fields (Azuka and Igue 2020). A strong correlation (P < 0.01) was observed among soil properties, with variograms fitting exponential and spherical models, indicating high spatial dependence of soil properties (Azuka and Igue 2020)
+Another study at the Agricultural Engineering Research Farmland of the Federal University of Technology, Akure (FUTA), Nigeria, also explored spatial variability in soil physicochemical properties (Omotade and Alatise 2017). They observed that predominant soil texture was sandy clay loam, with bulk density (1.47 g/cm³), particle density (2.23 g/cm³), saturated hydraulic conductivity (0.027 cm/hr), and water holding capacity (41.78%) (Omotade and Alatise 2017). The chemical composition showed a pH of 6.43, total nitrogen at 0.10%, phosphorus at 1.60 mg/kg, potassium at 0.26 cmol/kg, calcium at 2.66 cmol/kg, magnesium at 1.59 cmol/kg, cation exchange capacity at 13.31 cmol/kg, and soil organic matter at 1.69% (Omotade and Alatise 2017). This research emphasizes the necessity of regular soil assessments after each planting season to monitor changes and ensure sustainable land management (Omotade and Alatise 2017). Furthermore, it highlights the complex interactions between soil properties, topography, and land use. Variations in soil texture, infiltration rates, and nutrient distribution regulate water retention, aggregate stability, and erosion processes (Ding et al.,
+2016; Singh et al.,
+2021). High infiltration capacity is associated with reduced risks of flooding and erosion (Leimer et al.,
+2021), while factors such as clay content, bulk density, and organic matter influence infiltration rates (Fu et al.,
+2023). Soil pH also plays a critical role in nutrient availability and microbial activity, affecting key biochemical reactions like nitrogen fixation (Li and Pan,
+2020). These insights reinforce the importance of understanding soil variability for effective land management, sustainable agriculture, and environmental conservation.
+1.1	Objective of the study
+This main objective of the study is 
+	to determine the spatial variability of soil Physical and chemical properties under two land use types impacted by erosion, University of Benin;
+	to assess the spatial variability of some soil Physical and chemical properties as influenced by land use in the study area.
+
+
+CHAPTER TWO
+2.0  	LITERATURE REVIEW
+2.1 	SPATIAL VARIABILITY OF SOIL PROPERTIES
+Spatial variability refers to the way a particular property or characteristic changes across different locations in a given area. The spatial variability of soil parameters plays a crucial role in elucidating the effects of soil genesis factors and land utilization on soil characteristics. This variability facilitates the allocation of distinct land areas for specific purposes and stands as a fundamental principle in the domain of soil mapping. The variability in soil porosity, ion exchange, and adsorption capacity dictates the soil's ability to regulate nutrients. Human activities exert a significant impact on soil nutrients through practices such as tillage methods, crop rotation, and fertilization; furthermore, harvesting can result in nutrient depletion and extensive erosion (Klik and Rosner,
+2020). Moreover, the composition of plant species plays a vital role in determining the distribution and accessibility of soil nutrients, a factor profoundly influenced by their communities and specific species (Xu, Liu, et al.,
+2022). Topography significantly influences the spatial distribution of nutrients in soils by impacting erosion, runoff, infiltration, and deposition processes (Li and Pan,
+2020). It also significantly influences the spatial variability in surface soil carbon and nitrogen contents by governing hydrological processes and the generation and decay of plant litter (Kokulan et al.,
+2018). The position of slopes in the topographic landscape, being a pivotal factor, impacts the nature and extent of soil erosion and deposition, along with the distribution of nutrients across slopes (Zhang et al.,
+2021). Notably, elements such as surface clay, soil organic matter, and other nutrients are transported from higher slope regions to lower depressions, particularly in severely eroded northeastern zones, where they are deposited (Chen et al.,
+2022). The dynamics of soil erosion and sedimentation on slopes are modulated by diverse land uses and vegetative cover (Chen et al.,
+2021; Guo et al.,
+2020). 
+2.2 	EFFECT OF SLOPE ON VARIABILITY OF SOIL CHEMICAL PROPERTIES 
+The variability of chemical soil properties in an ecosystem is significantly influenced by environmental factors such as parent materials, topography, climate, vegetation, and human activities (Umali et al.,
+2012). Among these, topography particularly slope position, slope aspect, and slope gradient plays a crucial role in shaping the land surface and influencing local and regional microclimates by affecting precipitation, temperature, and humidity patterns (Tsui et al.,
+2004). These microclimatic variations impact plant growth and soil properties, thereby affecting ecosystem structure and function (Sun et al.,
+2014, Zhang et al.,
+2018).
+Slope position, which refers to the relative height along a hillside, is a major factor controlling soil physico-chemical properties by influencing water and material movement. It contributes to spatial variations in soil characteristics (Sun et al.,
+2014). Additionally, slope inclination, including angle and length, significantly affects soil erosion, leading to the loss of fine soil particles rich in organic carbon and nitrogen (Carroll et al.,
+2000). For longer slopes, soil loss is more pronounced at upper slope positions, whereas lower slopes tend to accumulate eroded soil particles. Slope position also influences soil particle distribution, temperature, moisture, and nutrient cycling in both grasslands (Sun et al.,
+2014; Zhang et al.,
+2018) and forests (Tateno and Takeda 2003). As a key topographic factor, slope position affects microclimate, soil properties, species composition, and overall ecosystem functions (Feng et al.,
+2018). Neglecting its impact may lead to uncertainty when estimating soil properties in hilly and mountainous regions (Feng et al.,
+2018). Numerous studies highlight the importance of slope position in soil variability (Gou et al.,
+2015). For example, Pierson and Mulla (1990) found that soils at footslope and toeslope positions had higher organic carbon than those at the summit. Similarly, (Moorman et al.,
+2004) reported higher total carbon content at footslope and toeslope positions compared to backslope positions.
+Further, (Tsui et al.,
+2004) analyzed soil properties across slope positions in a lowland rainforest in southern Taiwan and found that organic carbon, available nitrogen, available potassium, extractable iron, and exchangeable sodium were highest at the summit, while pH, available phosphorus, exchangeable calcium, and magnesium were more abundant at the footslope in the topsoil (0 - 15 cm depth). In the Arasbaran Forest, Iran, (Rezaei et al.,
+2015) observed significant differences in soil properties across slope positions, including soil profile thickness, clay content, organic carbon, total nitrogen, and cation exchange capacity. Overall, slope position plays a vital role in shaping soil chemical properties and ecosystem dynamics, making it essential to consider when assessing soil variability, particularly in sloped landscapes.
+2.3 	EFFECT OF SLOPE ON VARIABILITY OF SOIL PHYSICAL PROPERTIES 
+Soil physical properties play a crucial role in regulating and supplying water, nutrients, air, and heat, directly impacting vegetation growth (Hatten and Liles 2019). Several key indicators are commonly used to assess soil physical properties. For instance, soil bulk density (BD) is closely linked to compaction, aeration, and hydraulic capacity (Giap and Ahmad 2024). while saturated hydraulic conductivity (Ks) is a critical factor influencing water and solute movement within the soil profile (Godoy et al.,
+2019). Several studies have explored how soil physical properties vary with slope aspect and position. The distribution of soil particles, BD, Ks, and soil water content (SWC) differs across slopes, with values on the south-facing and upslope positions being higher, lower, or sometimes showing no significant difference compared to those on the north-facing and downslope positions (Godoy et al.,
+2019). These findings indicate that soil physical properties are influenced not only by human activities, such as land use, but also by natural factors like slope aspect and position. For instance, slopes exceeding 25 degrees with varying degrees of vegetation restoration on the Loess Plateau have a profound impact on soil physical characteristics, effectively mitigating soil erosion and minimizing carbon and nitrogen losses (Li et al.,
+2018). Therefore, effectively managing these critical factors is essential for improving soil physical properties and maintaining a healthy soil ecosystem.
+A study conducted in the hilly loess region of China further supports these findings, demonstrating that soil physical properties are shaped by interactions among land use, slope aspect, and slope position (Ding et al.,
+2024). The study revealed that soil properties were generally more favorable on north-facing slopes compared to south-facing slopes and were greater on the downslope than on the upslope (Ding et al.,
+2024). Additionally, BD, Ks, SWC, and the geometric soil stability index (GSSI) in locust forests changed over time depending on the restoration year (Ding et al.,
+2024). These results emphasize the need to consider slope aspect, slope position, and restoration time when evaluating how land use impacts soil physical properties.
+Soil infiltration properties (SIPs) differ notably across various slope positions under agricultural land use. Zhu et al., (2023) observed that infiltration rates generally increase from the upper slope to the middle before declining towards the lower slope. These fluctuations are primarily influenced by differences in soil texture, porosity, and bulk density throughout the landscape. Moreover, the study indicated that the initial infiltration rate (IIR), steady infiltration rate (SIR), and saturated hydraulic conductivity (Ks) had a positive relationship with sand content and total porosity (Zhu et al.,
+2023). On the other hand, these parameters were negatively associated with silt and clay content, bulk density, and the thickness of the physical crust (Zhu et al.,
+2023). Additionally, Zhu et al., (2023) highlighted that physical crust thickness, bulk density, and water-stable aggregates were key factors contributing to variations in SIPs. These findings emphasize the need to account for slope position when implementing soil management practices, especially in areas prone to erosion.
+2.4 	EFFECT OF LAND USE TYPES ON VARIABILITY OF SOIL CHEMICAL PROPERTIES 
+
+Soil properties respond to land use and land cover (LULC) changes with both spatial and temporal variations. Changes in land use are recognized as major contributors to and a fundamental cause of environmental changes worldwide (Agoume and Birang,
+2009). According to (Agoume and Birang,
+2009), land use types significantly affect the distribution of clay, sand, and silt fractions. While sand and silt content decline with soil depth, clay content increases. Additionally, key soil properties such as pH, total nitrogen, organic carbon, available phosphorus, exchangeable calcium, exchangeable aluminum, sum of bases, Effective Cation Exchange Capacity (ECEC), and aluminum saturation are all notably influenced by land use systems. Although aluminum toxicity tends to be more prevalent in subsoils, topsoil is more susceptible to acidity-related challenges. It is well documented that the conversion of native forests and rangelands into cultivated agricultural land results in soil degradation (Mulugeta et al.,
+2005). As reported by (Agoume and Birang,
+2009), the primary effects of land use change include increased bulk density, depletion of organic matter, and a decline in Cation Exchange Capacity (CEC), all of which negatively impact soil fertility. 
+A study conducted in Benin City, Nigeria, explored the effects of land use types on soil properties (Okonofua et al.,
+2023). The study analyzed various chemical parameters, including pH, electrical conductivity (EC), carbon content, nitrogen, organic matter, phosphorus, aluminum, and Cation Exchange Capacity (CEC), along with calcium (Ca), magnesium (Mg), potassium (K), and sodium (Na). Seasonal variations in pH, phosphorus, aluminum, and CEC were found to be statistically significant at p < 0.05 (d = 0.0001 for pH, p < 0.05, d = 0.0001 for phosphorus, p < 0.05, d = 0.0002 for aluminum, and p < 0.05, d = 0.019 for CEC) (Okonofua et al.,
+2023). Conversely, seasonal changes in EC, carbon content, nitrogen, and organic matter were not statistically significant at p < 0.05 (d = 0.46 for EC, p < 0.05, d = 0.30 for carbon content, p < 0.05, d = 0.46 for nitrogen, and p < 0.05, d = 0.31 for organic matter) (Okonofua et al.,
+2023). Overall, the findings demonstrated that soil properties are significantly influenced by different land use types (Okonofua et al.,
+2023).
+Another study conducted at the University Farm in Okha, near Benin City, Nigeria, examined the spatial variability of soil chemical properties (Ajayi and Okonokhua,
+2024). The results indicated that the coefficient of variability (CV) was low for sand and clay (<15%) and moderate for silt (15–50%). Soil pH exhibited low variability, with values ranging from very strongly acidic to moderately acidic conditions. Organic carbon (C) levels were generally low, while nitrogen (N) and phosphorus (P) were also in the low range, and potassium (K) was very low. The highest concentrations of effective cation exchange capacity (ECEC) were observed in the concave areas of the landscape (Ajayi and Okonokhua,
+2024). The study further revealed that topography and land use significantly influenced the distribution of soil chemical properties, even within a relatively small farmland area. This insight is particularly valuable for implementing site-specific nutrient management strategies to enhance soil productivity (Ajayi and Okonokhua,
+2024).
+
+
+2.5 	EFFECT OF LAND USE TYPES ON VARIABILITY OF SOIL PHYSICAL PROPERTIES
+ 
+Land use refers to the ways in which people utilize and modify land cover through various activities, arrangements, and inputs to maintain or alter it (Ufot et al.,
+2016). Different land-use practices significantly influence soils physical properties, which in turn affect agricultural productivity and environmental stability (Chimdi et al.,
+2012). Both soil depth and land-use type contribute to the spatial variability of soil fertility from local to regional scales. Understanding these variations and their driving factors is essential for developing sustainable land management strategies (Chemeda et al.,
+2017). Land use plays a crucial role in shaping soils physical characteristics, influencing factors like water retention, erosion, and compaction. Activities such as farming, forestry, urbanization, and grazing alter soil texture, structure, bulk density, porosity, infiltration, and water-holding capacity. These changes can have long-term effects on soil health, impacting nutrient availability and overall productivity (Chemeda et al.,
+2017). For example, high bulk density restricts root growth and water movement, reducing soil fertility (Gap et al.,
+2024). Urbanization, particularly through construction and soil sealing, significantly increases bulk density (Gap et al.,
+2024). 
+Soil porosity, which affects air and water movement, tends to decline with land-use changes such as deforestation and urbanization due to soil compaction (Smith et al.,
+2016). However, sustainable agricultural practices such as using cover crops and organic amendments can help maintain higher porosity (Chimdi et al.,
+2012). Infiltration rates and water-holding capacity are key factors for plant growth, yet excessive tillage and overgrazing can reduce these properties, leading to surface runoff and erosion (Zhu et al.,
+2021). Poorly managed land use can degrade soil texture, structure, bulk density, porosity, infiltration, and moisture retention, underscoring the need for proper land management to preserve soil quality (Smith et al.,
+2016).
+Soil infiltration properties (SIPs), such as the initial infiltration rate, steady infiltration rate, and saturated hydraulic conductivity, are crucial in hydrological processes. They influence runoff generation, soil erosion, water movement, heat exchange, and solute transport within the vadose zone (Singh et al.,
+2021; Zhu et al.,
+2020). Consequently, these properties serve as key parameters in various climatic, hydrological, erosion, and crop models (Fu et al.,
+2021). The infiltration rate and saturated hydraulic conductivity, in particular, significantly impact hydrological and erosion processes. Therefore, understanding SIPs under different land use and cover types is essential for effective land management, soil erosion control, and sustainable development in small agricultural watersheds (Zhu et al.,
+2024).
+However, limited research has explored the differences in SIPs and their key influencing factors across various land use or cover types in the black soil region of Northeast China. To address this gap, eight typical land use/cover types were selected for analysis (Zhu et al.,
+2024). SIPs, including the initial infiltration rate (IIR), steady infiltration rate (SIR), and saturated hydraulic conductivity (Ks), were measured across these land types forestland, shrubland, grassland, longitudinal shelterbelt, transverse shelterbelt, agricultural road, and cropland cultivated with Zea mays L. and Glycine max (Linn.) Merr. using a tension disc infiltrometer at three pressure heads (-3,
+-1.5, and 0 cm) (Zhu et al.,
+2024). A one-way ANOVA revealed significant variations in SIPs across land use/cover types. Shelterbelt areas with Populus L. exhibited the highest IIR, SIR, and Ks values, followed by shrubland, agricultural roads, cropland, grassland, and forestland (Zhu et al.,
+2024). Spearman correlation analysis showed that SIPs were strongly associated with soil and vegetation characteristics. Additionally, redundancy analysis identified soil texture, field capacity, and plant root mass density as the dominant factors influencing SIP variations, explaining 79.36% of the total variation (Zhu et al.,
+2024). Structural equation modeling further indicated that plant roots and soil texture had the most significant indirect effects on SIPs by altering soil texture and pore characteristics (Zhu et al.,
+2024).
+2.6	 IMPACT OF LAND USE OR LAND COVER ON SOIL EROSION 
+Land use or land cover change (LULC) is a prominent global environmental issue that presents a significant threat to humanity. It plays a crucial role in various public initiatives worldwide, as evident from the extensive development activities undertaken across different regions (Ayele et al.,
+2014; Haregeweyn et al.,
+2015). The alteration of land use is a primary contributing factor to soil erosion, a critical concern in environmental research (Senanayake et al. 2020). Additionally, LULC changes can impact the hydrological characteristics of watersheds and exacerbate land degradation issues such as soil erosion and sedimentation if not addressed systematically (Abdulkareem et al.,
+2019; Mohammadi et al.,
+2021). Therefore, understanding the dynamics of LULC and their implications on soil erosion can aid policymakers in making informed decisions (Waltner et al.,
+2020). Extensive soil erosion leads to erosion hazards, which influence landscape processes, including land productivity, hydrological functions, and ultimately human welfare. Consequently, assessing soil erosion is vital for comprehending landscape dynamics. Soil erosion plays a pivotal role in land degradation and is recognized as a significant environmental hazard (Panagos et al.,
+2017; Poesen,
+2018; Steinmetz et al.,
+2018). In recent years, land degradation has emerged as a major environmental issue in numerous regions worldwide, especially in developing countries where agriculture is a primary occupation (Rawat et al.,
+2016; Samanta et al.,
+2016; Saha et al.,
+2018). This has various adverse effects, including the depletion of soil fertility, hindering global socio-economic progress (Kouli et al.,
+2009). At a global scale, nearly 85% of land degradation is predominantly caused by soil erosion (Tang et al.,
+2015). Soil erosion has become a pressing concern in almost all corners of the world (Prashanth et al.,
+2021). Furthermore, LULC change is impacting the availability of natural resources, particularly soil resources, in many regions globally (Abdulkareem et al.,
+2019; Mohammadi et al.,
+2021; Zhu et al.,
+2022; Moisa et al.,
+2023). Among the various types of soil erosion, water erosion's effects are of greater concern, as it disrupts soil texture, structure, and quality, posing risks to other natural resources like land and water, which are essential for human survival (Srinivasan et al.,
+2019; Kolli et al.,
+2021).
+Several models have been developed for predicting soil erosion, including empirical models like the Universal Soil Loss Equation (USLE) by Wischmeier and Smith (1978), the Revised Universal Soil Loss Equation (RUSLE) by Renard et al. (1997), and process-based models such as the USDA-Water Erosion Prediction Project (WEPP) by Nearing et al. (1989), European Soil Erosion Model (EUROSEM) by Morgan et al. (1998), and Large Scale Catchment Model LASCAM by Viney and Sivapalan (1999). The integration of soil erosion models with GIS serves as a valuable tool in land degradation assessment practices. RUSLE is a widely utilized soil erosion model for calculating and forecasting spatial and temporal variations in soil erosion within a GIS framework (Islam et al.,
+2020). It is employed to estimate long-term average annual soil loss in specific areas with distinct ground slope characteristics (Boggs et al.,
+2001). Recognized for its simplicity, relevance, limited data requirements, and straightforward computational methods, RUSLE is extensively adopted worldwide (Jha and Paudel,
+2010).
+2.7 	IMPACT OF EROSION ON SOIL PROPERTIES 
+The importance of erosion and its influence on soil characteristics and crop production have been extensively demonstrated worldwide. Recent studies indicate that prolonged soil erosion alters the soil profile, resulting in modifications to soil water retention capacity, nutrient availability, organic matter reservoir, and ultimately crop yields (Bai et al.,
+2019). Numerous studies have shown that soil erosion amplifies soil heterogeneity and deteriorates the quality of surface soil on convex slope positions as well as the spatial variability of crop yield (Schumacher et al.,
+2020). Recent findings highlight that erosion impacts soil chemical properties notably through mechanisms such as depletion of soil organic matter and exposure of subsoil with diminished fertility or heightened acidity (Kosmas et al.,
+2021). According to Quine and Zhang (2022), tillage erosion emerges as a predominant soil redistribution process closely linked to soil characteristics and grain productivity. This indicates that soil redistribution through tillage plays a pivotal role in the spatial diversity of soil properties and crop output (Gasper et al.,
+2019). Soil erosion influences numerous properties with consequences such as the depletion of topsoil and decline in soil fertility, rendering the land unsuitable for agriculture and adversely affecting crop yields. Additionally, fine particles of eroded sediment that eventually make their way into surface waters result in a significant increase in sediment and pollutants in rivers (Ubah et al.,
+2024). This obstructs waterways leading to potential flooding and diminishes biodiversity of aquatic species. If pesticides and fertilizers are contained in the eroded material, there is also the risk of compromising downstream water quality.
+2.8 	IMPACT OF EROSION ON SOIL PHYSICAL PROPERTIES 
+Soil physical characteristics serve as key indicators in determining the process of soil erosion. They are primarily characterized by the formation of a sealed crust on the soil surface, compaction, inadequate drainage, hindered root growth, excessive runoff, and accelerated erosion (Zhu et al.,
+2021). The physical properties encompass air and moisture conditions within the soil along with its compaction. Optimal levels of air and water are crucial for the vitality of soil organisms as well as proper functioning for chemical properties necessary for successful crop growth (Zhu et al.,
+2021). Recent studies highlight that water erosion significantly influences the spatial variability of soil properties and agricultural output (Quine and Zhang,
+2022). The immediate impacts of intensified soil erosion on crop productivity result from a combination of factors such as reduced root depth, diminished plant-available water reservoirs, decline in soil fertility, and adverse physical conditions.
+Soils characterized by high porosity and low bulk density are conducive to microorganisms and fungi (Ubah et al.,
+2021). Such soils harbor an abundance of micro-roots that enhance stability thereby reducing susceptibility to water and wind erosion (Ubah et al.,
+2024). Researchers have discovered that increased bulk density leads to a higher wash-off rate attributed to destabilization caused by excessive compaction resulting in compromised physical properties (Zhu et al.,
+2021)
+2.8.1 	Impact of Erosion on Soil Texture
+Soil texture is the relative proportion of sand, silt and clay. Soil texture influences the physical, chemical, and biological attributes of soil, as well as processes, thus playing a vital role in crop growth and nutrient distribution. The texture of soil impacts its physical characteristics such as bulk density, porosity, pore size distribution, and aggregate stability (Mamedov et al.,
+2016), subsequently affecting soil water and nutrient retention and movement (Mamedov et al.,
+2016). Texture also affects soil chemical processes such as nitrogen mineralization and subsequent leaching (Lemboye et al.,
+2021).
+Soil erosion profoundly alters soil composition by selectively eliminating finer particles like silt and clay, leaving behind coarser materials such as sand. This process degrades soil structure, diminishes fertility, and adversely impacts agricultural productivity (Rashmi et al.,
+2022). Wind erosion, specifically, has the capacity to swiftly modify soil composition by extracting fine particles. It is a global occurrence and a critical environmental issue in numerous arid and semiarid regions worldwide (Lemboye et al.,
+2021). Fine particles such as clay and silt are more susceptible to being detached and transported by water or wind, leaving behind coarser materials like sand. Erosion disrupts soil aggregates, breaking down the structure that holds particles together (De Ploey et al.,
+2020).
+2.8.2  	Impact of Erosion on Infiltration 
+Soil erosion is a critical environmental issue that significantly affects the natural water cycle. Erosion involves the removal of the topsoil layer, which is rich in organic matter, nutrients, and fine particles that play a crucial role in maintaining soil structure and water infiltration (Singh and Hartsch 2019). Infiltration, the process by which water enters the soil, is essential for replenishing groundwater, supporting plant growth, and reducing surface runoff. However, when erosion depletes the topsoil, the soil's ability to absorb and retain water diminishes (Bashir et al. 2017). Several factors contribute to soil erosion, including rainfall intensity, land use practices, vegetation cover, and slope steepness (Chen et al. 2018). These factors disrupt soil structure and increase the compaction of the remaining soil layers. Compacted soils have reduced pore spaces, which inhibit water infiltration, leading to increased surface runoff and flooding (Itsukushima et al.,
+2022). Over time, this cycle exacerbates land degradation, reduces soil fertility, and impacts agricultural productivity (Eswaran et al 2019). The relationship between erosion and infiltration is particularly significant in areas prone to heavy rainfall or human activities like deforestation, overgrazing, and improper agricultural practices (Chen et al. 2018). Understanding how erosion impacts infiltration can inform sustainable land management practices, soil conservation strategies, and water resource management. This study explores the dynamics between erosion and infiltration, aiming to provide insights into mitigating the adverse effects of erosion and enhancing soil water retention for improved environmental sustainability. Research by Bashir et al. (2017) indicates that eroded soils tend to be more compacted and have fewer and smaller pores, which limits water infiltration. Erosion often results in the formation of hardened crusts or compacted layers, which impede water movement into the soil, leading to runoff instead of absorption (Singh and Hartsch 2019).  This runoff can carry away more soil and exacerbate the erosion cycle.
+Studies have shown that the relationship between erosion and reduced infiltration is cyclical. As erosion accelerates, the soil becomes less capable of absorbing water, which increases runoff. This runoff not only carries away more soil but also contributes to flooding and waterlogging, further deteriorating the lands ability to support vegetation and agricultural activities (Chen et al. 2018, Itsukushima et al.,
+2022). The impact of erosion on infiltration is significant, as it not only reduces water absorption by the soil but also exacerbates soil degradation, leading to a detrimental cycle of runoff and further erosion. This issue has broad implications for water management, agriculture, and environmental sustainability. Effective soil conservation techniques are essential to breaking this cycle, promoting sustainable land management, and improving water retention and soil fertility (Bashir et al.,
+2017, Eswaran et al.,
+2019). Understanding the dynamics of erosion and infiltration can help guide policy and decision-making for more resilient agricultural systems and environmental sustainability.
+2.8.3 	Impact of Erosion on Saturated Hydraulic Conductivity (SHC)
+Saturated hydraulic conductivity Ks is a crucial parameter for comprehending soil movement and hydrology. It serves as a foundational element for simulating runoff, drainage, and solute transport in soils (Vogeler et al.,
+2021). Saturated hydraulic conductivity Ks characterizes water flow under fully saturated soil conditions. Soils with low hydraulic conductivity values exhibit limited infiltration rates. During intense rainfall, such soils experience runoff, resulting in soil erosion and the surface transportation of colloids, nutrients, and microbes. These phenomena can lead to issues of eutrophication and pollution downstream areas (Udom and Nuga 2024).
+Soil erosion has a profound impact on saturated hydraulic conductivity (Ksat), which gauges the soil's capacity to transmit water when completely saturated. This influence stems from the degradation of soil structure and the removal or redistribution of essential soil constituents.  Soils damaged by erosion often exhibit increased bulk density due to compaction, reducing the number and size of macropores, thereby impeding Ksat (Vogeler et al.,
+2021). The loss of organic matter, a key consequence of erosion, disrupts soil aggregates, leading to surface crusting and sealing that significantly diminishes infiltration rates and Ksat (Almendro-Candel et al.,
+2018). Erosion also redistributes soil particles, particularly clay, altering soil texture and frequently decreasing hydraulic conductivity. Exposed subsoils, exposed by severe erosion, generally possess higher bulk density and lower porosity compared to topsoils, resulting in decreased Ksat (Edem and Oshunsanya 2014). Surface sealing induced by the accumulation of fine particles and raindrop impact further diminishes Ksat by obstructing water infiltration into the soil. Erosion-induced alterations, such as reduced porosity, heightened compaction, organic matter depletion, and surface sealing, severely impede saturated hydraulic conductivity, detrimentally impacting water infiltration, retention, and soil productivity (Edem and Oshunsanya 2014, Almendro-Candel et al.,
+2018).
+2.9 	IMPACT OF EROSION ON SOIL CHEMICAL PROPERTIES 
+Soil erosion encourages chemical degradation due to selective depletion of organic matter along with alterations in associated chemical parameters (Bashir et al.,
+2018). Variations in the impact on chemical characteristics are influenced by surface properties determined by differences in parent material or climate conditions (Gasper et al.,
+2019).  As topsoil erodes less fertile subsoils become exposed resulting in declines within chemical quality necessitating substantial inputs from fertilizers for production maintenance and issue particularly acute among impoverished farmers lacking resources.
+ Accumulation of acidity might affect surrounding areas by exacerbating the imbalance, making it more challenging to correct or offset the damage. The Cation exchange capacity (CEC) of the soil, which measures the soils ability to hold positively charged ions like calcium (Ca2+), magnesium (Mg2+), sodium (Na+), and potassium (K+), is a critical soil property influencing soil structural stability, nutrient availability, soil pH, and the soils response to fertilizers and other ameliorants (Hazleton and Murphy,
+2007). Therefore, as topsoil erosion progresses, more fertile and acidic subsoils become exposed resulting in soils becoming more acidic and consequently replacing cations with H+, Al3+, and Mn2+and soils with a low CEC are more likely to develop deficiencies in potassium (K+), magnesium (Mg2+), and other cations, compared to high CEC soils which are less susceptible to leaching of these cations (Hazleton and Murphy,
+2007). 
+2.9.1 	Impact of Erosion on Soil PH
+Soil pH measures the concentration of hydrogen ions in soil and is a key indicator of soil health, representing the balance between acidity and alkalinity. It directly influences nutrient availability, microbial activity, and the growth of plants (Neina 2019). Most crops require a slightly acidic to neutral pH range (6.0 - 7.5) to thrive, as nutrient solubility and uptake are optimal within this range (Agegnehu et al.,
+2021). However, soil erosion can disrupt this balance, leading to conditions that either increase acidity or alkalinity (Neina 2019). This disruption occurs through several mechanisms, including the removal of organic matter, loss of base cations, and exposure of subsurface materials with distinct pH characteristics (Kleber et al.,
+2021). Erosion-induced changes in soil pH have severe implications for agricultural productivity and environmental stability (Rashmi et al.,
+2022). For instance, acidic soils resulting from erosion can cause aluminum toxicity, reducing root development and water uptake in plants (Kleber et al.,
+2021). On the other hand, alkaline conditions may lead to deficiencies in micronutrients like iron and zinc, further impairing crop yields (Agegnehu et al.,
+2021) Beyond agriculture, these changes affect ecosystem services such as carbon sequestration, water filtration, and biodiversity conservation (Palm et al.,
+2014). Similarly, arid regions experience wind erosion, which often removes fine particles and organic matter, altering pH towards alkalinity (Rashmi et al.,
+2022).
+2.9.2 	Impact of Erosion on total Nitrogen 
+Nitrogen is an indispensable nutrient for plant growth and ecosystem functioning, primarily stored in soil organic matter. Soil erosion, propelled by water, wind, and human activity, poses a significant threat to soil nitrogen reserves. By stripping away the topsoil, erosion not only diminishes the overall nitrogen content but also disrupts its cycling and availability (Berhe et al.,
+2018). Detailing the destiny of fertilizer-derived nitrogen (N) in agricultural systems is a pivotal tool in refining management practices that optimize nutrient utilization by crops and minimize losses (Quan et al.,
+2021). Soil erosion leads to the depletion of nutrients like N, resulting in adverse impacts on surface and groundwater quality. Apart from diminishing agricultural productivity through soil depletion, erosion affects soil nitrogen in various ways. The topsoil, abundant in organic matter and nitrogen, is highly vulnerable to erosion. Organic nitrogen, a primary reservoir of plant-accessible nitrogen, is lost as soil particles are transported by water or wind (Duiker 2021). Moreover, erosion diminishes microbial activity, hindering the transformation of organic nitrogen into ammonium and nitrate, thereby disrupting the nitrogen cycle and decreasing soil fertility and plant productivity (Rashmi et al.,
+2022).
+Nitrogen runoff and leaching are also significant repercussions of erosion. Furthermore, erosion can wash away nitrogen-rich fertilizers, reducing their efficacy and escalating environmental contamination (Chen et al.,
+2023). The removal of nitrogen-rich topsoil reduces the soil's capacity to sustain plant growth, resulting in a gradual decline in agricultural productivity (Belete and Yadete 2023). Erosion also disrupts the equilibrium between carbon and nitrogen in soils, impacting soil structure, microbial communities, and nutrient cycling (Qiu et al.,
+2021). These alterations exacerbate soil degradation and diminish the soils' ability to restore their organic matter and nitrogen reservoirs. In addition to terrestrial impacts, erosion carries significant environmental repercussions. Nitrogen runoff from eroded soils can trigger algal blooms and hypoxic conditions in water bodies, severely deteriorating aquatic ecosystems (Lan et al.,
+2024). To mitigate the impact of erosion on total nitrogen, several strategies can be implemented. Soil conservation practices, such as no-till farming and contour farming, minimize soil disturbance and decrease water runoff and soil loss (Rajbanshi et al.,
+2023). Vegetative cover, including cover crops and buffer strips, proves effective in shielding soil from erosion while introducing organic nitrogen and capturing eroded soil before it enters water systems (Rashmi et al.,
+2022). Organic matter management stands out as another crucial strategy. Regular application of compost or manure can replenish organic nitrogen and enhance soil structure, bolstering the soil's resilience to erosion (Rajbanshi et al.,
+2023). A synergistic application of these approaches is imperative for sustainable nitrogen management and enduring agricultural productivity.
+2.9.3 	Impact of Erosion on Available Phosphorus 
+Phosphorus (P) is a critical element for life on Earth, being a key component of DNA, RNA, ATP, and phospholipids. It plays an essential role in the growth, functioning, and reproduction of all living organisms. In natural ecosystems, phosphorus lost from the soil-plant cycling system is replenished primarily through the slow process of rock weathering or by the addition of fertilizers (Zhao and Riaz 2024). However, one of the most significant losses of phosphorus occurs due to soil erosion by water, which often happens during sudden events (Jarvis 2020). Soil erosion is a primary pathway for phosphorus loss, as the majority of soil phosphorus is bound to mineral particles, organic matter, or precipitated as poorly soluble salts ( Alewell  et al.,
+2020). When erosion occurs, phosphorus is mainly exported from soils to water bodies, with only a small fraction of phosphorus leaching as dissolved soluble phosphate, except in heavily fertilized soils with high phosphorus availability (Zhao and Riaz 2024). Erosion removes nutrient-rich topsoil, which contains most of the soil's phosphorus in both organic and mineral forms. Particles carrying phosphorus are easily transported by water or wind during erosion events. Additionally, runoff from eroded soils can carry dissolved phosphorus, which is readily available to plants and aquatic organisms. This runoff contributes to downstream eutrophication, causing algal blooms and oxygen depletion in water bodies (Chen et al.,
+2023). Erosion disrupts soil structure, reducing its ability to retain phosphorus. This negatively impacts microbial activity, which is essential for converting organic phosphorus into bioavailable forms, further limiting plant phosphorus availability (Zhu et al.,
+2018). Over time, the removal of phosphorus-rich topsoil reduces soil fertility and agricultural productivity, necessitating increased reliance on chemical fertilizers. This dependency can result in economic challenges for farmers and environmental degradation (Tan  et al.,
+2022).
+2.9.4 	Impact of Erosion on Exchangeable acidity 
+Soil exchangeable acidity (EA) is an important indicator of aluminum toxicity potential in acidic soils, providing valuable quantitative information for identifying and managing such soils. Excessive leaching and intense weathering in humid tropics often result in acid soils with low inherent fertility. The greatest portion of total soil acidity is contributed by H⁺ and Al³⁺ ions, collectively referred to as exchangeable acidity (EA) (Blume et al.,
+2016).  EA is a function of soil pH and cation exchange capacity (CEC), with De Sousa and Alleoni (2024) defining it as the amount of the total CEC contributed by H⁺ and Al³⁺ ions. Soil pH serves as a rapid indicator of active acidity, reflecting the concentration of H⁺ ions in soils. However, pH alone does not provide quantitative information about soil acidity or plant nutrient availability (Blume et al.,
+2016; Barrow and Hartemink,
+2023). In acid soils, EA offers a more comprehensive measure by considering the concentration of both H⁺ and Al³⁺ ions, which is essential for assessing the potential for aluminum toxicity (Hartemink and Barrow,
+2023).
+Erosion has significant effects on exchangeable acidity and overall soil chemical properties. When erosion removes the nutrient-rich topsoil, it exposes subsoil layers that often have higher levels of exchangeable Al³⁺ due to reduced organic matter content and lower buffering capacity Kleber et al.,
+2021). The removal of organic matter, a primary source of CEC, decreases the soil's ability to neutralize acidic ions, leading to increased exchangeable acidity (Li et al.,
+2022). Furthermore, erosion accelerates the leaching of base cations such as calcium (Ca²⁺), magnesium (Mg²⁺), and potassium (K⁺), which would otherwise counteract soil acidity. This depletion shifts the soil balance toward greater acidity, and aluminum ions released from mineral dissolution under acidic conditions become more active, exacerbating exchangeable acidity (Hartemink and Barrow 2023). The increase in exchangeable acidity due to erosion has profound implications for soil fertility and plant growth. High levels of Al³⁺ are toxic to plant roots, inhibiting nutrient uptake and water absorption, while reduced pH negatively affects microbial activity critical for processes like nitrogen fixation and organic matter decomposition. These changes can result in decreased nutrient availability, reduced crop yields, and accelerated soil degradation (Kleber et al.,
+2021). Mitigating the impact of erosion on exchangeable acidity requires effective soil conservation measures. Strategies such as maintaining vegetative cover, applying lime to neutralize acidity, and adopting conservation tillage can help retain topsoil, protect organic matter, and maintain optimal EA levels. (Rastogiet al.,
+2023). 
+
+
+
+
+
+ 
+CHAPTER THREE
+3.0 	MATERIALS AND METHODS
+3.1 	DESCRIPTION OF THE STUDY SITES
+The study was carried out at forest planted with teak close to Food and Science Technology and at orchard (citrus), University of Benin, Benin City, Edo State, Nigeria. The site lies between Latitude 06.40292°N and Longitude 005.62533°E with an altitude ranging from 90m to 111m for the Teak forest, and latitude 06.40458°N and Longitude 005.62300°E with an altitude ranging 108m to117m for the orchard (citrus).
+The site is situated at the rainforest belt of the humid tropics and southern ecological zone of Nigeria, the area falls within the tropical climate with an average annual temperature and rainfall of about 27 0C and 2000 mm respectively, with mean annual relative humidity ranging from 89% in the morning to 75% in the evening (NIFOR 2013). The area has two distinct (rainy and dry) seasons. The rainy season Commences in April and ends in October while the dry season begins early November and ends in march. The rainfall pattern is bimodal with peaks in July and August. There is usually a short dry break in mid-August, commonly known as August break. The land use types is more than 10 years.3.2 	FIELD STUDY
+Two Land use were identified; forest planted with teak and orchard (citrus) and eventually soil infiltration was carried out in each land use using the double ring infiltrometer.
+3.3  	SAMPLE COLLECTION 
+Representative soil samples were collected from two land use types; forest planted with teak  and  orchard (citrus)) at the University of Benin. It was taken at two depths: 0-15cm,
+15-30cm along the upper, middle and lower slope using the soil auger and core sampler at 50m distance in the East West direction. In each Land Use types, samples were collected from six point using random sampling procedure with three replicates. Material used for the sample collection include GPS, soil auger, core sampler, shovel, wood, paper tape, polythene bags, cloth and permanent makers. The auger soil samples were labelled in a polythene bag and taken to the laboratory for analysis.
+3.4  	LABORATORY ANALYSIS 
+3.4.1. 	Analysis for Chemical Properties
+Soil samples were air-dried, grounded and passed through a 2mm sieve and analyzed for selected physical and chemical properties following the standard operating procedure (Udo et al.,
+2009). The physical properties were also analyzed.
+3.4.1.1 	Particle Size Analysis
+Particle size distribution was determined by Hydrometer Method of Bouyoucos (1962), as modified by Day (1965). 51g of air-dry soil was weighed into a 250 ml beaker,
+100 ml of Calgon was added and the mixture was stirred gently for few minutes before dispersing with a dispersing machine. The dispersed soil was transferred into a 1000 ml measuring cylinder and made up to mark with distilled water. The suspension was stirred thoroughly with a plunger to set the particles in motion. The first hydrometer reading was taken after 40 seconds using standard soil hydrometer with Bouyoucos scale in g/L and temperature reading was taken using thermometer. Thereafter the second hydrometer and temperature reading were taken after two hours. The particle size distribution (% sand, silt and clay) was calculated using the formula:
+% Silt + % Clay = Corrected hydrometer reading/ weight of sample used × 100.
+% (Silt + % Clay) = 100 [ H1 + 0.36 (T1 – 20)
+] / wt of soil
+% Clay = [ H2 + 0.36 (T2 – 20)
+]2
+% Silt = 100 – (% Sand + % Clay)
+Where, H1 = first hydrometer reading, H2 = second hydrometer reading, T1 and T2 = first and second temperature reading, wt = weight.
+3.4.1.2   Textural Classification
+Textural classification was determined using the textural triangle (soil survey staff,
+2003).
+3.4 .1.3   Soil pH (H2O)
+The soil pH (1: 2) was determined in 1: 2 soil : water suspension using a glass electrode pH meter (Tan,
+1996). 
+3.4.1.4      Organic Carbon
+The soil organic carbon (OC) content was determined by wet oxidation method (walkley and Black,
+1934).
+3.4.1.5      Total organic Nitrogen
+Total organic nitrogen was computed from total organic carbon (Ibitoye,
+2008).
+3.4.1.6       Available Phosphorus (P)
+Available P was extracted with Bray-1 solution according to methods by Bray and Kurtz (1945). The P in the extract was developed by the Sulphuric molybdate blue method of Murphy and Riley (1962).
+3.4.1.7      Exchangeable Bases
+Exchangeable bases (Ca, Mg, Na, K) were extracted with 1 N ammonium acetate (1N NH4OAc), buffered at pH 7. Na and K were read using the flame photometer while Ca and Mg were determined using Atomic Absorption Spectrophotometer (AAS). 
+3.4.1.8     Cation Exchange Capacity (CEC)
+The cation exchange capacity (CEC) was determined by summation methods. CEC was calculated by summation of values of Ca, Mg, K and Na. (Udo, et al.,
+2009).
+3.4.1.9      Exchangeable Acidity
+Exchangeable acidity was determined by extracting soils with 1 M KCl as reported by Juo (1979). The extract was titrated with 0.01M NaOH solution to a permanent pink color end point. 
+3.4.1.10    Effective Cation Exchange Capacity (ECEC)
+Effective Cation Exchange Capacity (ECEC) was calculated by summation of Exchangeable bases (CEC) and Exchangeable acidity (EA). 
+3.4.1.11    Base Saturation
+Percentage base saturation was determined by the equation given below:
+% Base Saturation =   
+3.4.1.12  	Statistical Analysis
+Data obtained from soil analysis were statistically analyzed using the Genstat statistical package (12th edition). Duncan multiple range test was used to separate means at 5% level of probability.
+3.4.2  	ANALYSIS FOR PHYSICAL PROPERTIES 
+3.4.2.1	 Measurements of Soil Bulk Density and Total Porosity 
+Bulk density was measured with oven-dried soil core samples using the method of Grossman and Reinsch (2002) as:
+  						(1)
+Total porosity was measured with the method of Flint and Flint (2002) and calculated as:	
+  					(2)
+
+3.4.2.2 	Determination of Saturated Hydraulic Conductivity
+Ksat=  V/AT  X L/∆HSaturated hydraulic conductivity (Ksat) was measured using the constant head soil core method as described by Reynolds et al. (2002), and calculated by rearrangement of Darcy's equation for constant head condition as below;	
+											(3)
+where, V is the volume of water collected at steady state (cm3), L is the length of the soil core (cm), A is the cross-sectional area of the core (cm2), T is the time elapse (h) and H is the hydraulic head difference (cm). Permeability was based on the Soil Survey staff (1993) classification.
+3.4.2.3 	Determination of Aggregate Stability 
+WSA=  MR/MT  X 100/1 Aggregate stability was measured by the mean weight diameter (MWD) of water stable aggregates using the wet-sieving procedure as described by Kemper and Rosenau (1986) and modified by Nimmo and Perkins (2002). In this procedure,
+50 g of 4.75 mm dry-sieved aggregates were placed in the topmost of a nest of sieves: 2.0,
+1.0,
+0.5-, and 0.25-mm diameter. The aggregates were pre-soaked by capillary in distilled water for 15 minutes and oscillated vertically in water 20 times, using 4 cm amplitude in a mechanical agitator. The remaining stable aggregates on each sieve were oven-dried at 50οC for 24 hours and weighed. The percentage of the stable aggregates on each sieve representing water stable aggregates (WSA) was calculated as: 	
+												(4)
+where MR is the mass of resistant aggregates (g) and MT is the total mass of wet-sieved aggregates (g). The mean weight diameter (MWD) of the water stable aggregates was calculated by the following equation (Hillel,
+2004):   
+MWD= ∑_(i-1)^n▒〖x_1 w_1 〗											(5)
+where  is the mean diameter of each size fraction, and wi is the weight of aggregates in that size range as a fraction of the dry weight of the sample analyzed. 
+3.4.2.4 	Measurement of Saturated Water Holding Capacity
+WHC=(mw-md)/md  X 100 The water holding capacity of the soil was measured at saturation and calculated as:
+											(6)
+Where, Mw is the mass of wet soil (g) at 0 kpa, Md is the mass of oven-dried soil (g).
+3.4.2.5   	Statistical Analysis
+Data obtained from soil analysis were statistically analyzed using the Genstat statistical package (12th edition). Duncan multiple range test was used to separate means at 5% level of probability.
+
+
+
+
+ 
+
+
+
+
+
+                                                         Plate 1: Sample collection 
+
+
+Plate 2: Processes of Infiltration 
+ 
+CHAPTER FOUR
+4.0				RESULTS AND DISCUSSION 
+4.1: 	Influence of land use type and slope on the variability of soil physical properties at 0-15 and 15-30cm depth 
+
+Table 1 shows the influence of land use type and slope on the variability of soil physical properties at 0 - 15cm and 15 - 30cm depth. The Analysis of Variance (ANOVA) indicated that the parameters were significantly different from each other at p <0.001 level of probability. The K sat mean values range from 19.32cm/h to 33.7cm/h the class of permeability indicated between moderately rapid to very rapid which could be as a result of the class of texture of the soils in both the forest (teak) and orchard (citrus) land use.
+The textural class for both the land use type vary between loamy sand and sand along the slope. This could have influenced the permeability class (moderately rapid to rapid) of the two land use types. This result agrees with previous findings that soil texture significantly affect permeability (Dessalegn et al.,
+2014). The K sat for both land use types along the upper slopes range from 19.32cm/h to 26.26cm/h for the forest (teak) land use and 19.05cm/h to 33.73cm/h for the orchard (citrus) along the slope. Although the highest mean value of K sat was observed at 15 - 30cm depth of the middle slope while the lowest value was observed at 0 - 15cm depth of the upper slope for the forest land use. The highest value for the K sat was observed at 0 - 15cm of the lower slope while the lowest value was present at 15 - 30cm at the upper slope for the orchard (citrus). 
+ 
+Table 1: 	Influence of land use type and slope on the variability of soil physical properties at 0-15 and 15-30cm depth 
+Land use 	Slope 	DEPTH
+(cm)	Ksat
+cmh-1	Permeability 
+	Textural class 
+Forest	
+Upper	0 - 15	19.32de	Moderately rapid 	Loamy sand 
+		15 - 30	21.02cde	Rapid 	Loamy sand 
+	Middle	0 - 15	20.49cde	Moderately rapid 	Sand 
+		15 - 30	26.26bc	Very rapid 	Loamy sand 
+	Lower	0 - 15	25.50bcde	Rapid 	Sand 
+		15 - 30	21.69cde	Rapid 	Loamy sand 
+Orchard	Upper	0 - 15	29.46ab	Very rapid 	Loamy sand 
+		15 - 30	19.05e	Moderately rapid 	Loamy sand 
+	Middle	0 - 15	20.42cde	Rapid 	Sand 
+		15 - 30	25.94bcd	Rapid 	Loamy sand 
+	Lower	0 - 15	33.73g	Moderately rapid 	Loamy sand 
+		15 - 30	20.90cde	Rapid 	Loamy sand 
+Level of probability 	P<0.001				
+CV			14.8%		
+Minimum 			17.18		
+Maximum 			35.8		
+			
+					
+K sat- saturated hydraulic conductivity 
+ 
+4.2: 	Influence of land use type and slope on the variability of soil chemical properties at 0-15cm   depth and 15-30 cm depth
+
+Table 2 shows the influence of land use types and slope on the variability of soil chemical properties at 0 - 15cm and 15 - 30cm depth. The Analysis of Variance (ANOVA) indicated that the parameters were significantly different from each other at p <0.001 level of probability in the two land use types along the slope (Chen et al.,
+2024).
+The pH of the two land use types shows a range of 4.52 in the upper slope to 4.77 in the lower slope for the forest (teak) and 4.51 in the upper slope to 5.08 in the lower slope for the orchard (citrus).  The total nitrogen of the two land use types shows a range of 0.42 in the upper slope to 1.15 in the upper slope for the forest (teak) and 0.66 in the upper slope to 2.04 in the lower slope or the orchard (citrus). The available P of the two land use types shows a range of 11.93 in the lower slope to 30.49 in the lower slope for the forest (teak) and 17.23 in the upper slope to 51.70 in the middle slope for the orchard (citrus). 
+The EA of the two land use types shows a range of 0.16 in the lower slope. While the highest value which is 0.24 was observed in the upper, middle and lower slope for the forest (teak) and 0.08 in the middle slope to 0.30 in the middle slope for the orchard (citrus).
+
+ 
+Table 2: Influence of land use type and slope on the variability of soil chemical properties at 0-15cm   depth and 15-30 cm depth 
+		DEPTH
+(cm)	PH	T.N
+mgkg-1	P
+mgkg-1	EA
+Forest	
+Upper	0 - 15	4.85bc	1.15b	25.19g	0.24a
+		15 - 30	4.52b	0.42f	13.26j	0.24a
+	Middle	0 - 15	4.72cd	0.58def	34.47d	0.24a
+		15 - 30	4.52d	0.59def	21.21h	0.24a
+	Lower	0 - 15	4.77c	0.75cd	30.49f	0.16b
+		15 - 30	4.55d	0.52ef	11.93k	0.24a
+Orchard	Upper	0 - 15	4.52d	0.92c	17.23i	0.16b
+		15 - 30	4.51d	0.66de	30.49f	0.16b
+	Middle	0 - 15	5.01ab	1.25b	43.75b	0.30a
+		15 - 30	4.83bc	0.91c	51.70a	0.08c
+	Lower	0 - 15	5.08a	2.04a	31.82e	0.12bc
+		15 - 30	4.91abc	1.32b	41.1c	0.08c
+Level of probability  	P<0.01					
+CV			2.6%	13.2%	0.4%	13.0%
+Minimum 			4.38	0.28	11.80	0.05
+Maximum 			5.18	2.17	51.84	033
+	TN- total nitrogen, P- Phosphorus, EA- exchangeable acidity,
+4.3	Variability in cumulative infiltration as influenced by the land use type and the slope 
+
+Fig 1 presents the cumulative infiltration rates (mm/hr) across different slope positions (Upper, Middle, and Lower) in both Forest (teak) and Orchard (citrus) land uses. The results indicate significant variation in infiltration rates between slope positions and land use types.
+There was no significant difference observed among the mean values for cumulative infiltration in the forest (teak) land use types at p<0.05 level of probability. However, the highest cumulative infiltration was observed in the Middle slope with a mean value 110mm/hr. The Upper and Lower slope showed relatively lower values, with the Lower slope exhibiting the lowest infiltration rate with a mean value of 60mm/hr.  Similar results have been reported in previous studies, where forested areas exhibited higher infiltration due to difference in soil texture, porosity and bulk density. (Zhu et al.,
+2023)
+In the Orchard (citrus) land use types, there was significant difference among the mean level for the cumulative infiltration at p<0.05 level of probability. However, the Middle slope  shows the highest infiltration rate with a mean value of 130mm/hr, while the Lower slope position had the lowest cumulative infiltration with a mean value of 80mm/hr. there was no significant difference between the upper slope, middle slope and lower slope, while there was significant difference between the middle and lower slope.  These findings align with those of Zhu et al. (2023) who reported that soil infiltration properties differ across various slope position under agricultural land use.
+				 
+										
+Fig 1: Variability in cumulative infiltration as influenced by the land use type and the slope 
+
+F4.3	Variability in cumulative infiltration as influenced by the land use type and the slope 
+ 
+4.4	Variability in steady state infiltration as influenced by the land use type and the
+	slope  
+Fig 2 presents the steady state infiltration (mm/hr) across different slope positions (Upper, Middle, and Lower) in both Forest (teak) and Orchard (citrus) land uses. The results indicate significant variation in infiltration rates between slope positions and land use types.
+There was no significant difference observed among the mean values for steady state infiltration in the forest (teak) land use types at p<0.05 level of probability. However, the highest steady state infiltration was observed in the upper slope with a mean value 16mm/hr, the middle slope shows the lowest infiltration rate with a mean value of 10mm/hr.  
+In the Orchard (citrus) land use types, there was significant difference among the mean level for the steady state infiltration at p<0.05 level of probability. However, the upper slope shows the highest infiltration rate with a mean value of 11mm/hr, while the Lower slope had the lowest mean value of 6mm/hr. There was no significant difference between the upper slope and middle slope, while there was significant difference between the middle and lower slope and between the upper and lower.  
+ 
+
+
+Fig 2: Variability in steady infiltration as influenced by the land use type and the slope 
+
+
+ 
+CHAPTER FIVE
+5.0	CONCLUSION 
+This study assessed the impact of land use and slope position on soil physical and chemical properties, highlighting their influence on soil erosion and distribution. The research revealed significant variability in soil properties across different slope positions and land use types. Key findings indicate that both physical and chemical properties differ along the slope. Saturated hydraulic conductivity varied across positions, with a coefficient of variation (CV) of 14.8%. Chemical properties such as soil pH, total nitrogen, phosphorus, and exchange acidity were uniformly distributed along the slope with a low CV (<15%), suggesting minimal variability. Infiltration studies showed that the middle slope had the highest cumulative infiltration for both land types, while steady-state infiltration was highest in the upper slope. However, in the orchard (citrus) the lower slope exhibited reduced infiltration due to soil compaction. Overall, the study confirms that slope position and land use significantly influence soil properties, affecting soil erosion and water movement. The observed patterns of infiltration variability highlight the need for land management strategies tailored to slope dynamics and land use types.
+5.1	Recommendations
+	Soil Conservation Measures: Implement erosion control strategies such as terracing, contour farming, and mulching, especially in upper and middle slopes where infiltration rates are higher, to reduce runoff and soil loss.
+	Soil Compaction Management: In orchard (citrus) areas, particularly at lower slopes, soil compaction should be mitigated through deep tillage, organic matter incorporation, and cover cropping to enhance infiltration and root penetration.
+	Nutrient Management: Since soil chemical properties show minimal variability along slopes, site-specific fertilizer application should be practiced to maintain soil fertility and prevent nutrient leaching or depletion.
+	Land Use Planning: Sustainable land use practices should be adopted to match soil properties with appropriate agricultural or forestry activities, ensuring long-term productivity and environmental stability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References 
+Abdu, A., Laekemariam, F., Gidago, G., Kebede, A., and Getaneh, L. (2023). Variability analysis of soil properties, mapping, and crop test responses in Southern Ethiopia. Heliyon,
+9(3): 14013. https: //doi.org/10.1016/j.heliyon.2023.e14013. 
+Abdulkareem, J. H., Pradhan, B., Sulaiman, W. N. A., and Jamil, N. R. (2019). Prediction of spatial soil loss impacted by long-term land-use/land-cover change in a tropical watershed. Geoscience Frontier 10: 389–403.  
+Adiyah, F., Michéli, E., Csorba, A., Gebremeskel, W.T., Gyuricza, C and Ocansey, C. M. (2022) Effects of land use change and topography on the quantity and distribution of soil organic carbon stocks on Acrisol catenas in tropical small-scale shade cocoa systems of the Ashanti region of Ghana. Catena,
+216: 106366. 
+Agegnehu, G., Amede, T., Erkossa, T., Yirga, C., Henry, C., Tyler, R., ... and Sileshi, G. W. (2021). Extent and management of acid soils for sustainable crop production system in the tropical agroecosystems: a review. Acta Agriculturae Scandinavica, Section B—Soil and Plant Science,
+71(9): 852-869.
+Agoume, V.; Birang, A.M. (2009). Impact of Land Use Systems on some physical and chemical Soil Properties of an Oxisol in the Humid Forest Zone of Southern Cameroon. Tropicultura,
+27: 15–20.
+Ajayi, A. A., and Okonokhua, B. O. (2024). Spatial variability of soil chemical properties of an undulating site within a University Farm at Okha, near Benin City in Nigeria. Journal of Applied Sciences and Environmental Management,
+28(7): 2241–2248. 
+Alewell, C., Ringeval, B., Ballabio, C., Robinson, D. A., Panagos, P and Borrelli, P. (2020). Global phosphorus shortage will be aggravated by soil erosion. Nature communications,
+11(1): 4546.
+Almendro-Candel, M. B., Lucas, I. G., Navarro-Pedreño, J., and Zorpas, A. A. (2018). Physical properties of soils affected by the use of agricultural waste. Agricultural waste and residues,
+2(1): 77-99.
+Ayele, K. F., Suryabhagavan, K. V., and Sathishkumar, B. (2014). Assessment of habitat changes in Holeta watershed, central Oromiya, Ethiopia. International Journal of Earth Science Engineering 7: 1370–1375.
+Azuka, C. V., and Igué, A. M. (2020). Spatial variability of soil properties under different land uses in the Koupendri catchment, Benin. Spanish Journal of Soil Science,
+10(1): 45–61. 
+Bai, X., Wang, B., An, S., Zeng, Q. and Zhang, H. (2019). Response of forest species to C:N:P in the plant-litter-soil system and stoichiometric homeostasis of plant tissues during afforestation on the loess plateau, China. Catena. 183: 104186. https: //doi.org/ 10.1016/j.catena.2019.104186
+Barrow, N. J. and Hartemink, A. E. (2023). The effects of pH on nutrient availability depend on both soils and plants. Plant and Soil,
+487(1–2): 21–37. 
+Bashir, S., Javed, A., Bibi, I. and Ahmad, N. (2017). Soil and water conservation. Pakistan, University of Agriculture, Faisalabad,
+263-286.
+Bashir, M., Adelodun, A. and Choi, K. S. (2018). A review of the evaluation of irrigation practice in Nigeria: Past, present and future prospects. African Journal of Agricultural Research. 13(40): 2087–2097.
+Beheral, R. D. (2022). Soil and Plant Analysis. NIPA GENX Electronic Resources and Solutions P. LTD. New Delhi-110 034. Pp. 81-83.
+Belete, T., and Yadete, E. (2023). Effect of Mono Cropping on Soil Health and Fertility Management for Sustainable Agriculture Practices: A Review. J. Plant Science,
+11: 192-197.
+Berhe, A. A., Barnes, R. T., Six, J., and Marín-Spiotta, E. (2018). Role of soil erosion in biogeochemical cycling of essential elements: carbon, nitrogen, and phosphorus. Annual Review of Earth and Planetary Sciences,
+46(1): 521-548.
+Blume, H. P., Brümmer, G. W., Fleige, H., Horn, R., Kandeler, E., Kögel-Knabner, I., Kretzschmar, R., Stahr, K. and Wilke, B. M. (2016). Scheffer/Schachtschabel Soil Science (p. 618). Springer.
+Boggs, G., Devonport, C., Evans, K., and Puig, P. (2001). GIS-based rapid assessment of erosion risk in a small catchment in the wet/dry tropics of Australia. Land Degradation Development,
+12: 417–434.
+Bouyoucos, G.J. (1962). Hydrometer method improved for making particle size analysis of soils. Agronomy Journal,
+54: 464–465.
+Carroll, C., Merton, L., and Burger, P. (2000). Impact of vegetative cover and slope on runoff, erosion, and water quality for field plots on a range of soil and spoil materials on central Queensland coal mines. Soil Research,
+38(2): 313-328.
+Chemeda, M., Kibret, K. and Fite, T. (2017). Influence of different land use types and soil depths on selected soil properties related to soil fertility in Warandhab Area, Horo Guduru Wallaga Zone, Oromiya, Ethiopia. International Journal of Environmental Sciences and Natural Resources,
+4(2): 555634.
+Chen, H., Zhang, X., Abla, M., Lü, D., Yan, R., Ren, Q., ... and Yang, X. (218). Effects of vegetation and rainfall types on surface runoff and soil erosion on steep slopes on the Loess Plateau, China. Catena,
+170: 141-149.
+Chen, S.Q., Zhang, G.H., Zhu, P.Z., Wang, C.S. and Wan, Y.Q. (2022) Impact of slope position on soil erodibility indicators in rolling hill regions of Northeast China. Catena,
+217: 106475. 
+Chen, J., Zhong, W.L., Haibing, X., Ke, N. and Chong, J.T. (2021) Effects of land use and land cover on soil erosion control in southern China: implications from a systematic quantitative review. Journal of Environmental Management,
+282: 111924. 
+Chen, J., Jin, C., Sun, S., Yang, D., He, Y., Gan, P., ... and Li, G. (2023). Recognizing the challenges of composting: Critical strategies for control, recycling, and valorization of nitrogen loss. Resources, Conservation and Recycling,
+198: 107172.
+Chen, L., Zhang, K., and Li, Y. (2024). Spatial variability of soil physicochemical properties under different land uses impacted by erosion on karst hillslopes in Southwest China. Earth Surface Processes and Landforms,
+1–15. 
+Chimdi, A., Gebrekidan, H., Kibret, K., and Tadesse, A. (2012). Status of selected physicochemical properties of soils under different land use systems of Western Oromia, Ethiopia. Journal of Biodiversity and Environmental Sciences,
+2(3): 57-71.
+Dai, L., Ge, J., Wang, L., Zhang, Q., Liang, T and Bolan, N.L., (2022) Influence of soil properties, topography, and land cover on soil organic carbon and total nitrogen concentration: a case study in QinghaiTibet plateau based on random Forest regression and structural equation modeling. Science of the Total Environment,
+821:153440. 
+Day, P.R. (1965). Particle fractionation and particle size analysis. In, Methods of soil analysis Black, C.A. (Ed). Part 1 Agronomy,
+9: 545–547.
+De Ploey, J., and Poesen, J. (2020). Aggregate stability, runoff generation and interrill erosion. In Geomorphology and soils,
+99-120. 
+De Sousa, R. N., and Alleoni, L. R. F. (2024). Performance of Struvite and Organomineral Fertilizers Compared to Traditional Source of Phosphorus in Maize Cultivation on Tropical Soils. Journal of Soil Science and Plant Nutrition,
+1-22.
+Dessalegn, D., Beyene, S., Ram, N., Walley, F., and Gala, T. S. (2014). Effects of topography and land use on soil characteristics along the toposequence of Ele watershed in southern Ethiopia. _Catena_,
+115,
+47-54.
+Ding, H., Zhu, H., Sun, R., Wen, W., and Bi, R. (2024). Variation in the physical properties of soil in relation to natural and anthropogenic factors in the hilly loess region of China. Catena,
+236: 107751. 
+Duiker, S. W. (2021). Soil organic matter and nutrient availability. In Soil Organic Carbon and Feeding the Future, pp103-136. CRC Press.
+Durán, J., Delgado-Baquerizo, M. Vegetation structure determines the spatial variability of soil biodiversity across biomes. Scientific Report,
+10: 21500 (2020). 
+Edem, I. D., and Oshunsanya, S. O. (2014). Preliminary studies of variability of runoff and soil loss within and among runoff plots planted with Vetiver grass strips. In Proceedings of the 38th annual conference of the Soil Science Society of Nigeria, pp. 10-14.
+Ehizonnohena Okonofua, E., Ogbomida, E., Emeribe, C., Anichie, B. and Emeribe, O. (2023). Effect of land use types on soil properties in Benin City, Nigeria. Tropical Environment, Biology, and Technology,
+1(2): 94–109. 
+Eswaran, H., Lal, R., and Reich, P. F. (2019). Land degradation: an overview. Response to land degradation,
+20-35.
+Feng, T., Wei, W., Chen, L., Rodrigo‐Comino, J., Die, C., Feng, X., ... and Yu, Y. (2018). Assessment of the impact of different vegetation patterns on soil erosion processes on semiarid loess slopes. Earth Surface Processes and Landforms,
+43(9): 1860-1870.
+Flint, A. L., and Flint, L. E. (2002). 2.2 Particle Density. Methods of soil analysis: Part 4 physical methods,
+5: 229-240.
+Fu, Z. H., Hu, W., Beare, M., Thomas, S., Carrick, S., Dando, J., Langer, S., Müller, K., Baird, D., and Lilburne, L. (2021). Land use effects on soil hydraulic properties and the contribution of soil organic carbon. Journal of Hydrology,
+602: 126741.
+Fu, Z. H., Hu, W., Beare, M., Baird, D., and Li, S. L. (2023). Response of soil organic carbon stock to land use is modulated by soil hydraulic properties. Soil and Tillage Research,
+233: 105793.
+Giap, S. G. E., and Ahmad, M. F. (2024). Factors Affecting Soil Bulk Density: A Conceptual Model. Journal of Soil, Environment and Agroecology,
+1(1): 27-45.
+Gaspar, L., Quijano, L., Lizaga, I. and Navas, A. (2019). Effects of land use on soil organic and inorganic C and N at Cs traced erosional and depositional sites in mountain agroecosystems. Catena,
+181:104058.  https: //doi.org/10.1016/j.catena.2019.05.004  
+Grossman, R. B., and Reinsch, T. G. (2002). 2.1 Bulk density and linear extensibility. Methods of soil analysis: Part 4 physical methods,
+5: 201-228. https: //doi.org/10.2136/sssabookser5.4.c9
+Godoy, V. A., Zuquette, L. V., and Gómez-Hernández, J. J. (2019). Spatial variability of hydraulic conductivity and solute transport parameters and their spatial correlations to soil properties. Geoderma,
+339: 59-69.
+Gou, Y., Chen, H., Wu, W., and Liu, H. B. (2015). Effects of slope position, aspect and cropping system on soil nutrient variability in hilly areas. Soil Research,
+53(3): 338-348
+Guo, M. M., Wang, W.L., Wang, T.C., Wang, W.X. and Kang, H.L. (2020) Impacts of different vegetation restoration options on gully head soil resistance and soil erosion in loess tablelands. Earth Surface Processes and Landforms,
+45(4): 1038–1050. 
+Hatten, J., and Liles, G. (2019). A ‘healthy ‘balance–The role of physical and chemical properties in maintaining forest soil function in a changing world. In Developments in soil science,
+36: 373-396. 
+Haregeweyn, N., Tsunekawa, A., Nyssen, J., Poesen, J., Tsubo, M., and Meshesha, D. (2015). Soil erosion and conservation in Ethiopia: A review of Progress in Physical Geography,
+39: 750–774.
+Hazelton, P. A., and Murphy, B. W. (2007). Interpreting soil test results: What do all the numbers mean? CSIRO Publishing. https: //doi.org/10.1071/9780643094680.
+Hillel, D. (2004). Introduction to Environmental Soil Physics. Elsevier Academic Press, Amsterdam, The Netherlands. https: //doi.org/10.1111/j.1365-2389.2005.0756d.x.
+Islam, M. R., Jaafar, W. Z. W., Hin, L. S., Osman, N., and Karim, M. R. (2020). Development of an erosion model for Langat River Basin, Malaysia, adapting GIS and RS in RUSLE. Applied Water Science,
+10: 1–11. 
+Itsukushima, R., Ideta, K., and Takata, H. (2022). Relationship between compaction and infiltration capacity of amended soil for urban flood damage mitigation. Soil Use and Management,
+38(1): 1054-1068.
+Jarvis, N. J. (2020). A review of non‐equilibrium water flow and solute transport in soil macropores: Principles, controlling factors and consequences for water quality. European Journal of Soil Science,
+71(3): 279-302.
+Jha, M. K., and Paudel, R. C. (2010). Erosion predictions by empirical models in amountainous watershed in Nepal. Journal of Spatial Hydrology,
+10: 89–102.
+Juo, A. S. R. (1979). Selected Methods for Soil and Plant Analysis. Manual Series No. 1, IITA, Ibadan.
+Kemper, W. D., and Rosenau, R. C. (1986). Aggregate stability and size distribution. Methods of soil analysis: Part 1 Physical and mineralogical methods,
+5: 425-442.
+Klatka ST, Malec M, Ryczek M. 2019. Analysis of spatial variability of selected soil properties in the Hard Coal postmining area. Journal of Ecological Engineering 20(3): 185-193.
+Kleber, M., Bourg, I. C., Coward, E. K., Hansel, C. M., Myneni, S. C., and Nunan, N. (2021). Dynamic interactions at the mineral–organic matter interface. Nature Reviews Earth and Environment,
+2(6): 402-421.
+Klik, A. and Rosner, J. (2020) Long-term experience with conservation tillage practices in Austria: impacts on soil erosion processes. Soil and Tillage Research,
+203: 104669.
+Kokulan, V., Akinremi, O., Moulin, A.P. and Kumaragamage, D. (2018) Importance of terrain attributes in relation to the spatial distribution of soil properties at the micro scale: a case study. Canadian Journal of Soil Science,
+98(2): 292–305.
+Kolli, M. K., Opp, C., and Groll, M. (2021). Estimation of soil erosion and sediment yield concentration across the Kolleru Lake catchment using GIS. Environmental Earth Science,
+80:161.
+Kosmas, C., Danalatos, N., Moustakas, N., Tsatiris, B., Kallianou, Ch. and Yassoglou, N. (2021). The impacts of parent material and landscape position on drought and biomass production of wheat under semi-arid conditions. Soil Technology. 6: 337–349.
+Kouli, M., Soupios, P., and Vallianatos, F. (2009). Soil erosion prediction using the revised universal soil loss equation (RUSLE) in a GIS framework, Chania, Northwestern Crete, Greece. Environmental Geology,
+57: 483–497.
+Lan, J., Liu, P., Hu, X., and Zhu, S. (2024). Harmful Algal blooms in Eutrophic Marine environments: causes, monitoring, and treatment. Water,
+16(17): 2525
+Leimer, S., Berner, D., Birkhofer, K., Boeddinghaus, R. S., Fischer, M., Kandeler, E., Kuka, K., Marhan, S., Prati, D., Schafer, D., Schoning, I., Solly, E. F., Wolters, V., and Wilcke, W. (2021). Land-use intensity and biodiversity effects on infiltration capacity and hydraulic conductivity of grassland soils in southern Germany. Ecohydrology,
+14(6): 2301.
+Lemboye, K., Almajed, A., Alnuaim, A., Arab, M., and Alshibli, K. (2021). Improving sand wind erosion resistance using renewable agriculturally derived biopolymers. Aeolian research,
+49: 100663.
+Li, C; Pan, C (2020). Overland runoff erosion dynamics on steep slopes with forages under field simulated rainfall and inflow. Hydrology Processes,
+34 (8): 1794-1809.
+Li, J., Li, Z.B., Guo, M.J., Li, P., Cheng, S.D. and Yuan, B. (2018) Effects of vegetation restoration on soil physical properties of abandoned farmland on the loess plateau, China. Environmental Earth Sciences,
+77(5):205. 
+Li, K. W., Lu, H. L., Nkoh, J. N., Hong, Z. N. and Xu, R. K. (2022). Aluminum mobilization as influenced by soil organic matter during soil and mineral acidification: A constant pH study. Geoderma,
+418: 115853.
+Mohammadi, M., Khaledi Darvishan, A. K., Spalevic, V., Dudic, B., and Billi, P. (2021). Analysis of the impact of land use changes on soil erosion intensity and sediment yield using the intero model in the Talar watershed of Iran. Water 13: 881. 
+Moisa, M. B., Babu, A., and Getahun, K. (2023). Integration of geospatial technologies with RUSLE model for analysis of soil erosion in response to land use/land cover dynamics. A case of Jere watershed, Western Ethiopia. Sustain. Water Resources Management,
+9:13. 
+Moorman, T. B., Cambardella, C. A., James, D. E., Karlen, D. L., and Kramer, L. A. (2004). Quantification of tillage and landscape effects on soil carbon in small Iowa watersheds. Soil and Tillage Research,
+78(2): 225-236.
+Morgan, R. P. C., Quinton, J. N., Smith, R. E., Govers, G., Poesen, J. W. A., Auerswald, K., ... and Styczen, M. E. (1998). The European Soil Erosion Model (EUROSEM): a dynamic approach for predicting sediment transport from fields and small catchments. Earth Surface Processes and Landforms: The Journal of the British Geomorphological Group,
+23(6): 527-544.
+Mulugeta, L.; Karltun, E.; Olsson, M. (2005). Assessing soil chemical and physical property responses to deforestation and subsequent cultivation in smallholders farming system in Ethiopia. Agriculture, Ecosystems and Environment,
+105: 373–386. 
+Murphy, J. and Riley, J. P. (1962). A modified single solution method for the determination of phosphate in natural waters. Analytical Chemistry ACTA,
+27: 31–36.
+
+Nearing, M. A., Foster, G. R., Lane, L. J., and Finkner, S. C. (1989). A process-based soil erosion model for USDA-water erosion prediction project technology. Transaction of the American Society of Agricultural Engineers,
+32 : 1587–1593. doi: 10.13031/2013.31195
+Neina, D. (2019). The role of soil pH in plant nutrition and soil remediation. Applied and environmental soil science,
+2019(1): 5794869.
+NIFOR (Nigeria Institute For Oil Palm Research), (2013). Weather data (Temperature, Rainfall, Relative humidity): 1993-2011.
+Nimmo, J. R. and Perkins, K. S. (2002). Aggregate stability and size distribution. In Dane, J. H., Topp, G. C. (eds.) Methods of Soil Analysis. Part 4. Physical Methods. Soil Science Society of America, Madison, pp. 317–328.
+Omotade, I. F., and Alatise, M. O. (2017). Spatial variability of soil physical and chemical properties in Akure, South Western, Nigeria. Global Journal of Science Frontier Research: Agriculture and Veterinary,
+17(5): 1–10
+Orzechowski, M., Smolczynski, S., Dlugosz, J., and Kalisz, B. (2022). Spatial variability of water properties of soils formed from glaciolimnic deposits in Sępopol Lowland (Poland)-results from a field-scale study. Journal of Elementology,
+27(3).
+Palm, C., Blanco-Canqui, H., DeClerck, F., Gatere, L., and Grace, P. (2014). Conservation agriculture and ecosystem services: An overview. Agriculture, Ecosystems and Environment,
+187: 87-105.
+Panagos, P., Borrelli, P., Meusburger, K., Yu, B., Klik, A., and Jae, L. K. (2017). Global rainfall erosivity assessment based on high-temporal resolution rainfall records. Scientific Report,
+7: 4175. 
+Pierson, F. B., and Mulla, D. J. (1990). Aggregate stability in the Palouse region of Washington: effect of landscape position. Soil Science Society of America Journal,
+54(5): 1407-1412.
+Poesen, J. (2018). Soil erosion in the Anthropocene: Research needs. Earth Surface Processes and Landforms,
+43: 64–84. doi: 10.1002/esp.4250
+Prashanth, M., Kumar, A., Dhar, S., Verma, O., and Sharma, S. (2021). Morphometric characterization and prioritization of sub-watersheds for assessing soil erosion susceptibility in the Dehar watershed (Himachal Himalaya), Northern India. Himalayan Geology,
+42: 345–358.
+Qiu, L., Zhu, H., Liu, J., Yao, Y., Wang, X., Rong, G., ... and Wei, X. (2021). Soil erosion significantly reduces organic carbon and nitrogen mineralization in a simulated experiment. Agriculture, Ecosystems and Environment,
+307: 107232.
+
+
+Quan, Z., Zhang, X., Davidson, E. A., Zhu, F., Li, S., Zhao, X., ... and Fang, Y. (2021). Fates and use efficiency of nitrogen fertilizer in maize cropping systems and their responses to technologies and management practices: A global analysis on field 15N tracer studies. Earth's Future,
+9(5): e2020EF001514.
+Quine, T. A., Walling, D. E. and Zhang, X. (2022). Tillage erosion, water erosion, and soil quality on cultivated terraces near Xifeng in the Loess Plateau, China. Land Degradation and Development. 10(3): 251–274.
+Rajbanshi, J., Das, S., and Paul, R. (2023). Quantification of the effects of conservation practices on surface runoff and soil erosion in croplands and their trade-off: A meta-analysis. Science of the Total Environment,
+864:  161015.
+Rashmi, I., Karthika, K. S., Roy, T., Shinoji, K. C., Kumawat, A., Kala, S., and Pal, R. (2022). Soil Erosion and sediments: a source of contamination and impact on agriculture productivity. In Agrochemicals in Soil and Environment: Impacts and Remediation (pp. 313-345). 
+Rastogi, M., Verma, S., Kumar, S., Bharti, S., Kumar, G., Azam, K. and Singh, V. (2023). Soil health and sustainability in the age of organic amendments: A review. International Journal of Environment and Climate Change,
+13(10): 2088-2102
+Rawat, K. S., Mishra, A. K., and Bhattacharyya, R. (2016). Soil erosion risk assessment and spatial mapping using LANDSAT-7 ETM+, RUSLE, and GIS—a case study. Arabian Journal of Geoscience,
+9:288. 
+Renard, K., Foster, G., Weesies, G., McCool, D., and Yoder, D. (1997). Predicting soil erosion by water: A guide to conservation planning with the Revised Universal Soil Loss Equation (RUSLE). Agriculture Handbook,
+703: 65–100
+Reynolds, W. D., Elick, D. E., Youngs, E. G., Amoozegar, A. and Bootink, N.W. (2002). Saturated and Field-saturated Water Flow Parameters, In: Dane, J.H., Topp, G.C. (eds.). Methods of Soil Analysis, Part 4. SSSA, Madison, WI, USA, pp. 797–878. https: //doi.org/10.2136/sssabookser5.4
+Rezaei, H., Jafarzadeh, A. A., Alijanpour, A., Shahbazi, F., and Kamran, K. V. (2015). Effect of slope position on soil properties and types along an elevation gradient of arasbaran forest, Iran. Internatonal Journal on Advanced Science. Engineering and Information Technology,
+5(6): 449-456.
+Saha, A., Ghosh, P., and Mitra, B. (2018). GIS based soil erosion estimation using Rusle model: A case study of upper Kangsabati watershed, West Bengal, India. Journal of Environental Science and Natural Resources,
+13: 119–126.
+Samanta, S., Koloa, C., Pal, D. K., and Palsamanta, B. (2016). Estimation of potential soil erosion rate using RUSLE and E30 model. Model. Earth System and Environment,
+2:149.
+Schumacher, I., Moreira, L. L., Baquero, L., Ribeiro, A. F. S., and Otto, F. E. L. (2020). Compound temperature and precipitation extremes’ effects on crop yields. Biogeosciences. 17: 4815–4830.  https: //doi.org/10.5194/bg-17-4815-2020
+Senanayake, S., Pradhan, B., Huete, A., and Brennan, J. (2020). Assessing soil erosion hazards using land-use change and landslide frequency ratio method: A case study of Sabaragamuwa Province, Sri Lanka. Remote Sensing,
+2:1483. 
+Singh, M., and Hartsch, K. (2019). Basics of soil erosion. In Watershed Hydrology, Management and Modeling (pp. 1-61). 
+Singh, D., Mishra, A. K., Patra, S., Mariappan, S., and Singh, N. (2021). Near-saturated soil hydraulic conductivity and pore characteristics as influenced by conventional and conservation tillage practices in North-West Himalayan region, India. International Soil and Water Conservation Research,
+9(2): 249-259.
+Smith, P., House, J. I., Bustamante, M., Sobocká, J., Harper, R., Pan, G and Pugh, T. A. (2016). Global change pressures on soils from land use and management. Global change biology,
+22(3): 1008-1028
+Srinivasan, R., Singh, S. K., Nayak, D. C., Hegde, R., and Ramesh, M. (2019). Eurasian journal of soil science. Eurasian Journal of Soil Science,
+8: 321–328.
+Steinmetz, A. A., Cassalho, F., Caldeira, T. L., Oliveira, V. A. D., Beskow, S., and Timm, L. C. (2018). Assessment of soil loss vulnerability in data-scarce watersheds in southern Brazil. Ciência e Agrotechnologia,
+42: 575–587.
+Sun, F., Lü, Y., Fu, B., Ma, Z., and  Yao, X. (2014). Spatial explicit soil moisture analysis: pattern and its stability at small catchment scale in the loess hilly region of China. Hydrological Processes,
+28(13): 4091-4109.
+Tan, D., Adedoyin, F. F., Alvarado, R., Ramzan, M., Kayesh, M. S and Shah, M. I. (2022). The effects of environmental degradation on agriculture: Evidence from European countries. Gondwana Research,
+106: 92-104.
+Tan, K.M. (1996). Soil sampling preparation and analysis. (Mercel Dekkes. Inc: New York. Basel. Hong kong). In African Research Review,
+3 : 22–33.
+Tang, Q., Xu, Y., Bennett, S. J., and Li, Y. (2015). Assessment of soil erosion using RUSLE and GIS: A case study of the Yangou watershed in the Loess Plateau, China. Environmental Earth Science,
+73: 1715–1724.
+Tateno, R., and Takeda, H. (2003). Forest structure and tree species distribution in relation to topography-mediated heterogeneity of soil nitrogen and light at the forest floor. Ecological research,
+18: 559-571.
+Tsui, C. C., Chen, Z. S., and Hsieh, C. F. (2004). Relationships between soil properties and slope position in a lowland rain forest of southern Taiwan. Geoderma,
+123(1-2): 131-142
+Waltner, I., Saeidi, S., Grósz, J., Centeri, C., Laborczi, A., and Pásztor, L. (2020). Spatial assessment of the effects of Land cover change on soil erosion in Hungary from 1990 to 2018. ISPRS International Journal of Geo Information,
+9: 667.
+Ubah, J., Orakwe, L. C., Umeghalu, I. C. E. and Ogbu, K. N. (2024). Water quality modeling of wastewater discharges for prediction of sediment transport and deposition in surface water. Journal of Civil Engineering and Environmental Sciences. 10(2): 073–078.  https: //doi.org/10.17352/2455-488X.000088       
+Udom, B., and Nuga, B. (2024). Hydraulic conductivity and aggregation of fine-textured soil under intensive cattle grazing. Journal of Agricultural Science,
+6(11): 37.
+Udo, E. J., Ogunwale, J. A., Fagbami, A., Ano, A. O. and Esu, I. E. (2009). Manual of soil, plant and water resources, P. 177.
+Ufot, U. O., Iren, O. B and Chikere Njoku, C. U. (2016). Effects of land use on soil physical and chemical properties in Akokwa area of Imo State, Nigeria. International Journal of Life Sciences Scientific Research,
+2(3): 273-278.
+Umali, B. P., Oliver, D. P., Forrester, S., Chittleborough, D. J., Hutson, J. L., Kookana, R. S., and Ostendorf, B. (2012). The effect of terrain and management on the spatial variability of soil properties in an apple orchard. Catena,
+93: 38-48.
+Viney, N. R., and Sivapalan, M. (1999). A conceptual model of sediment transport: Application to the Avon River Basin in Western Australia. Hydrology Processes,
+13: 727–743. 
+Vogeler, I., Carrick, S., Lilburne, L., Cichota, R., Pollacco, J., and Fernández-Gálvez, J. (2021). How important is the description of soil unsaturated hydraulic conductivity values for simulating soil saturation level, drainage and pasture yield? Journal of Hydrology,
+598: 126257.
+Walkley, A. and Black, I. A. (1934). An examination of Degtjareff method for determining soil organic matter and the proposed modification of the chronic acid wet titration method. Journal of Soil Science,
+37: 29-38.
+Wang, C. S., Zhang, G. H., Zhu, P. Z., Chen, S. Q., and Wan, Y. Q. (2023). Spatial variation of soil functions affected by land use type and slope position in agricultural small watershed. Catena,
+225: 107029
+Wischmeier, W. H., and Smith, D. D. (1978). Predicting rainfall erosion losses: A guide to conservation planning (No. 537). Department of agriculture, science and education administration, agriculture handbook. Washington, DC: U.S. Department of Agriculture.
+Xu, H., Liu, Q., Wang, S., Yang, G. and Xue, S.X. (2022) A global meta-analysis of the impacts of exotic plant species invasion on plant diversity and soil properties. Science of the Total Environment,
+810:152286.
+Zhang, X., Liu, M., Zhao, X., Li, Y., Zhao, W., Li, A., ... and Huang, J. (2018). Topography and grazing effects on storage of soil organic carbon and nitrogen in the northern China grasslands. Ecological Indicators,
+93: 45-53.
+Zhang, Q.Y., Wang, Z., Yao, Y.F., Kong, W.B., Zhao, Z.N., Shao, and M.A., (2021) Effects of slope morphology and position on soil nutrients after deforestation in the hilly loess region of China. Agriculture, Ecosystems and Environment,
+321(12):107615. 
+Zhao, S. and Riaz, M. (2024). Plant–soil interactions and nutrient cycling dynamics in tropical rainforests. In Environment, Climate, Plant and Vegetation Growth (pp. 229-264). 
+Zhu, J., Li, M. and Whelan, M. (2018). Phosphorus activators contribute to legacy phosphorus availability in agricultural soils: A review. Science of the Total Environment,
+612: 522-537.
+Zhu, P. Z., Zhang, G. H., Wang, H. X., and Xing, S. K. (2020). Soil infiltration properties affected by typical plant communities on steep gully slopes on the Loess Plateau of China. Journal of Hydrology,
+590: 125535
+Zhu, P., Zhang, G., Wang, H., Yang, H. and Zhang, B. (2021). Effectiveness of typical plant 1communities in controlling runoff and soil erosion on steep gully slopes on the Loess Plateau of China. Journal of Hydrology. 126714.  https: // doi.org/ 10.1016 /j.jhydrol .2021.126714
+Zhu, P., Zhang, G., Wang, C., Chen, S., and Wan, Y. (2024). Variation in soil infiltration properties under different land use/cover in the black soil region of Northeast China. International Soil and Water Conservation Research,
+12(2): 379-387.
+Zhu, P., Zhang, G., Yang, Y., Wang, C., Chen, S., and Wan, Y. (2023). Infiltration properties affected by slope position on cropped hillslopes. Geoderma,
+432: 116379. 
+Zhu, Y., Li, W., Wang, D., Wu, Z., and Shang, P. (2022). Spatial pattern of soil erosion in relation to Land use change in a rolling hilly region of Northeast China. Land 11: 1253.
