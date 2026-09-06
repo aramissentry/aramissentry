@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/favicon-192x192.png">
+    <title>Aramis Sentry Event Gallery | Security in Action</title>
+    <meta name="description" content="Explore selected event photography from Aramis Sentry, showcasing professional event security, VIP protection, access control and operational presence.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="index.html" class="logo" aria-label="Aramis Sentry home">
+                <img class="logo__image" src="assets/images/logo/aramis-logo.png" alt="Aramis Sentry">
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <div class="nav__links">
+                    <a href="index.html" class="nav__link">Home</a>
+                    <a href="about.html" class="nav__link">About Us</a>
+                    <a href="services.html" class="nav__link">Services</a>
+                    <a href="event-gallery.html" class="nav__link is-active">Event Gallery</a>
+                    <!-- <a href="insights.html" class="nav__link">Insights</a> -->
+                </div>
+                <a href="contact.html" class="btn btn-outline nav__cta">Request Security Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="event-gallery.html">Event Gallery</a>
+                <!-- <a href="insights.html">Insights</a> -->
+            </div>
+            <a href="contact.html" class="btn btn-primary">Request Security Services</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero event-gallery-hero">
+            <div class="event-gallery-hero__media" aria-hidden="true"><img src="assets/images/events/events-1.jpg/services-17.jpg" alt=""></div>
+            <div class="event-gallery-hero__scrim" aria-hidden="true"></div>
+            <div class="container event-gallery-hero__content">
+                <div class="page-hero__crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Event Gallery</div>
+                <span class="eyebrow">Event Gallery</span>
+                <h1 class="page-hero__heading">Security in Action.<br><em>Real Events. Real Presence.</em></h1>
+                <p class="page-hero__sub">A visual look at Aramis Sentry's presence across major events, showcasing disciplined personnel, professional execution and security solutions delivered with confidence and discretion.</p>
+            </div>
+        </section>
+
+        <section class="event-gallery-intro">
+            <div class="container event-gallery-intro__grid">
+                <div class="reveal"><span class="eyebrow">Our Work</span><h2 class="section-heading">A Look Behind the Presence</h2></div>
+                <p class="section-sub reveal">This catalogue captures selected moments from Aramis Sentry's event security operations, from preparation and coordination to professional presence among guests and event teams.</p>
+            </div>
+        </section>
+
+        <section class="event-feature" aria-labelledby="featured-coverage-heading">
+            <div class="container event-feature__grid">
+                <div class="event-feature__media reveal"><img src="assets/images/events/events-10.jpg" alt="Aramis Sentry security presence at a major event"></div>
+                <div class="event-feature__text reveal"><span class="eyebrow">Featured Coverage</span><h2 class="section-heading" id="featured-coverage-heading">Security in Action</h2><p class="section-sub">A selection of moments demonstrating Aramis Sentry's professional presence and operational approach during major event engagements.</p><a class="btn btn-outline-dark" href="index.html#event-video">View Event Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+            </div>
+        </section>
+
+        <section class="event-catalogue" aria-labelledby="catalogue-heading">
+            <div class="container">
+                <div class="section-head reveal"><div><span class="eyebrow">Selected Moments</span><h2 class="section-heading" id="catalogue-heading">The Event Catalogue</h2></div><p class="section-sub">Professional security operations, team coordination and guest management across real event environments.</p></div>
+                <div class="event-gallery__filters reveal" role="group" aria-label="Filter event gallery">
+                    <button class="event-gallery__filter is-active" type="button" data-gallery-filter="all" aria-pressed="true">All</button>
+                    <button class="event-gallery__filter" type="button" data-gallery-filter="event-security" aria-pressed="false">Event Security</button>
+                    <button class="event-gallery__filter" type="button" data-gallery-filter="vip-protection" aria-pressed="false">VIP Protection</button>
+                    <button class="event-gallery__filter" type="button" data-gallery-filter="access-control" aria-pressed="false">Access Control</button>
+                    <button class="event-gallery__filter" type="button" data-gallery-filter="team-operations" aria-pressed="false">Team &amp; Operations</button>
+                </div>
+                <div class="event-gallery__grid">
+                    <button class="event-gallery__item event-gallery__item--wide reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-1.jpg" data-caption="Professional event security operations"><img src="assets/images/events/events-1.jpg/services-1.jpg" alt="Aramis Sentry personnel providing event security" loading="lazy" decoding="async"><span>Professional event security operations</span></button>
+                    <button class="event-gallery__item event-gallery__item--tall reveal" type="button" data-gallery-item data-category="team-operations" data-full="assets/images/events/events-1.jpg/services-2.jpg" data-caption="Aramis Sentry security team"><img src="assets/images/events/events-1.jpg/services-2.jpg" alt="Aramis Sentry security team at an event" loading="lazy" decoding="async"><span>Aramis Sentry security team</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="access-control" data-full="assets/images/events/events-1.jpg/services-3.jpg" data-caption="Security presence and guest management"><img src="assets/images/events/events-1.jpg/services-3.jpg" alt="Aramis Sentry personnel managing guest movement" loading="lazy" decoding="async"><span>Security presence and guest management</span></button>
+                    <button class="event-gallery__item event-gallery__item--large reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-4.jpg" data-caption="Event security personnel"><img src="assets/images/events/events-1.jpg/services-4.jpg" alt="Aramis Sentry personnel on event deployment" loading="lazy" decoding="async"><span>Event security personnel</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="vip-protection" data-full="assets/images/events/events-1.jpg/services-5.jpg" data-caption="Professional protection in an event environment"><img src="assets/images/events/events-1.jpg/services-5.jpg" alt="Aramis Sentry personnel providing professional protection" loading="lazy" decoding="async"><span>Professional protection in an event environment</span></button>
+                    <button class="event-gallery__item event-gallery__item--wide reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-6.jpg" data-caption="Aramis Sentry personnel on event deployment"><img src="assets/images/events/events-1.jpg/services-6.jpg" alt="Aramis Sentry personnel deployed at an event" loading="lazy" decoding="async"><span>Aramis Sentry personnel on event deployment</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="team-operations" data-full="assets/images/events/events-1.jpg/services-7.jpg" data-caption="Team coordination at an event"><img src="assets/images/events/events-1.jpg/services-7.jpg" alt="Aramis Sentry team coordinating at an event" loading="lazy" decoding="async"><span>Team coordination at an event</span></button>
+                    <button class="event-gallery__item event-gallery__item--tall reveal" type="button" data-gallery-item data-category="vip-protection" data-full="assets/images/events/events-1.jpg/services-8.jpg" data-caption="Professional protection operations"><img src="assets/images/events/events-1.jpg/services-8.jpg" alt="Aramis Sentry personnel providing professional protection" loading="lazy" decoding="async"><span>Professional protection operations</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="access-control" data-full="assets/images/events/events-1.jpg/services-9.jpg" data-caption="Security presence and guest management"><img src="assets/images/events/events-1.jpg/services-9.jpg" alt="Aramis Sentry personnel managing event access" loading="lazy" decoding="async"><span>Security presence and guest management</span></button>
+                    <button class="event-gallery__item event-gallery__item--large reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-10.jpg" data-caption="Event security personnel"><img src="assets/images/events/events-1.jpg/services-10.jpg" alt="Aramis Sentry event security personnel" loading="lazy" decoding="async"><span>Event security personnel</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="team-operations" data-full="assets/images/events/events-1.jpg/services-11.jpg" data-caption="Aramis Sentry security team"><img src="assets/images/events/events-1.jpg/services-11.jpg" alt="Aramis Sentry security team at an event" loading="lazy" decoding="async"><span>Aramis Sentry security team</span></button>
+                    <button class="event-gallery__item event-gallery__item--wide reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-12.jpg" data-caption="Professional event security operations"><img src="assets/images/events/events-1.jpg/services-12.jpg" alt="Aramis Sentry personnel providing event security" loading="lazy" decoding="async"><span>Professional event security operations</span></button>
+                    <button class="event-gallery__item event-gallery__item--tall reveal" type="button" data-gallery-item data-category="vip-protection" data-full="assets/images/events/events-1.jpg/services-13.jpg" data-caption="Professional protection in an event environment"><img src="assets/images/events/events-1.jpg/services-13.jpg" alt="Aramis Sentry personnel providing VIP protection" loading="lazy" decoding="async"><span>Professional protection in an event environment</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="access-control" data-full="assets/images/events/events-1.jpg/services-14.jpg" data-caption="Security presence and guest management"><img src="assets/images/events/events-1.jpg/services-14.jpg" alt="Aramis Sentry personnel managing secure access" loading="lazy" decoding="async"><span>Security presence and guest management</span></button>
+                    <button class="event-gallery__item event-gallery__item--large reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-15.jpeg" data-caption="Event security personnel"><img src="assets/images/events/events-1.jpg/services-15.jpeg" alt="Aramis Sentry personnel at a major event" loading="lazy" decoding="async"><span>Event security personnel</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="team-operations" data-full="assets/images/events/events-1.jpg/services-16.jpg" data-caption="Team coordination at an event"><img src="assets/images/events/events-1.jpg/services-16.jpg" alt="Aramis Sentry team coordinating at an event" loading="lazy" decoding="async"><span>Team coordination at an event</span></button>
+                    <button class="event-gallery__item event-gallery__item--wide reveal" type="button" data-gallery-item data-category="event-security" data-full="assets/images/events/events-1.jpg/services-17.jpg" data-caption="Aramis Sentry personnel on event deployment"><img src="assets/images/events/events-1.jpg/services-17.jpg" alt="Aramis Sentry personnel on event deployment" loading="lazy" decoding="async"><span>Aramis Sentry personnel on event deployment</span></button>
+                    <button class="event-gallery__item reveal" type="button" data-gallery-item data-category="access-control" data-full="assets/images/events/events-1.jpg/services-18.jpeg" data-caption="Security presence and guest management"><img src="assets/images/events/events-1.jpg/services-18.jpeg" alt="Aramis Sentry personnel managing guest movement" loading="lazy" decoding="async"><span>Security presence and guest management</span></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="event-gallery-cta">
+            <div class="container event-gallery-cta__content reveal"><span class="eyebrow">Need Professional Security?</span><h2 class="cta__heading">Let's Secure Your Next Event.</h2><p class="cta__sub">Whether you're planning a major event, protecting VIP guests or managing a complex venue, Aramis Sentry can develop a security approach around your requirements.</p><div class="cta__actions"><a href="contact.html" class="btn btn-primary">Request Security Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="services.html" class="btn btn-outline">Explore Our Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
+        </section>
+    </main>
+
+    <div class="event-lightbox" data-gallery-lightbox aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
+        <button class="event-lightbox__close" type="button" data-lightbox-close aria-label="Close image viewer">&times;</button>
+        <button class="event-lightbox__prev" type="button" data-lightbox-prev aria-label="Previous image">&#8592;</button>
+        <figure class="event-lightbox__figure"><img data-lightbox-image src="" alt=""><figcaption id="lightbox-caption" data-lightbox-caption></figcaption></figure>
+        <button class="event-lightbox__next" type="button" data-lightbox-next aria-label="Next image">&#8594;</button>
+    </div>
+
+    <footer class="footer">
+        <div class="container"><div class="footer__grid">
+            <div class="footer__brand"><div class="logo"><img class="logo__image" src="assets/images/logo/aramis-logo.png" alt="Aramis Sentry"></div><p>Professional security solutions for events, VIPs and organizations — delivered with discipline, discretion and operational excellence.</p></div>
+            <div class="footer__nav"><div class="footer__heading">Quick Links</div><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="event-gallery.html">Event Gallery</a></li><li><!-- <a href="insights.html">Insights</a> --></li><li><a href="contact.html">Contact</a></li></ul></div>
+            <div class="footer__services"><div class="footer__heading">Services</div><ul class="footer__links"><li><a href="services.html#access-control">Access Control</a></li></ul></div>
+            <div class="footer__contact-block"><div class="footer__heading">Contact</div><ul class="footer__contact"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg><a href="mailto:Aramissentry@gmail.com">Aramissentry@gmail.com</a></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006.3 6.3l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"/></svg><a href="tel:+2349032568310">+234 90 3256 831</a></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.5 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006.3 6.3l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"/></svg><a href="tel:+2348124356786">+234 812 4356 786</a></li></ul><div class="footer__social"><a href="#" aria-label="Instagram"><img class="social-icon" src="assets/icons/instagram.png" alt=""></a><a href="#" aria-label="WhatsApp"><img class="social-icon" src="assets/icons/whatsapp.png" alt=""></a></div></div>
+        </div><div class="footer__bottom"><span>&copy; 2026 Aramis Sentry. All rights reserved.</span><span>We Don't Just Guard. We Represent.</span></div></div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
